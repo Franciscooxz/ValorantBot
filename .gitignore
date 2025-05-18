@@ -1,0 +1,21 @@
+# Dependencias
+/node_modules
+package-lock.json
+
+# Archivos de ambiente y configuración
+.env
+.env.local
+.env.development
+
+# Archivos de datos locales
+/data/*.json
+!/data/README.md
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Logs
+logs
+*.log
+npm-debug.log*
