@@ -1,0 +1,140 @@
+{
+  "maps": {
+    "ascent": {
+      "name": "Ascent",
+      "location": "Italia",
+      "description": "Un mapa abierto con una plaza central que permite un control medio dominante. Los bombarderos en Ascent pueden usar cierres en las entradas de los sitios para sellar puertas y cortar rutas.",
+      "releaseDate": "Lanzamiento inicial, 2020",
+      "imageUrl": "https://media.valorant-api.com/maps/7eaecc1b-4337-bbf6-6ab9-04b8f06b3319/splash.png",
+      "features": "Puertas mecánicas en los sitios de bombas, Plaza central amplia, Múltiples posibilidades de flanqueo"
+    },
+    "bind": {
+      "name": "Bind",
+      "location": "Marruecos",
+      "description": "Dos sitios de bombas conectados por teletransportadores unidireccionales. Este mapa único permite rotaciones rápidas pero ruidosas, creando situaciones de tensión para los defensores.",
+      "releaseDate": "Lanzamiento inicial, 2020",
+      "imageUrl": "https://media.valorant-api.com/maps/2c9d57ec-4431-9c5e-2939-8f9ef6dd5cba/splash.png",
+      "features": "Teletransportadores unidireccionales, Sin zona media, Callejones estrechos"
+    },
+    "breeze": {
+      "name": "Breeze",
+      "location": "Triángulo de las Bermudas",
+      "description": "Una isla tropical con espacios amplios y largos ángulos de visión. Breeze favorece el combate a larga distancia y el control de posición estratégica.",
+      "releaseDate": "Abril 2021",
+      "imageUrl": "https://media.valorant-api.com/maps/2fb9a4fd-47b8-4e7d-a969-74b4046ebd53/splash.png",
+      "features": "Espacios amplios, Compuertas destructibles, Sitios de bombas abiertos"
+    },
+    "fracture": {
+      "name": "Fracture",
+      "location": "Instalación secreta",
+      "description": "Un mapa dividido por un cañón, con los defensores en el centro y los atacantes pudiendo atacar desde ambos lados. Su diseño en H crea dinámicas únicas de ataque y defensa.",
+      "releaseDate": "Septiembre 2021",
+      "imageUrl": "https://media.valorant-api.com/maps/b529448b-4d60-346e-e89e-00a4c527a405/splash.png",
+      "features": "Cuerdas para atravesar el cañón, Diseño en H, Múltiples puntos de ataque"
+    },
+    "haven": {
+      "name": "Haven",
+      "location": "Bután",
+      "description": "El único mapa con tres sitios de bombas. Haven desafía a los defensores a distribuir sus recursos entre más áreas, mientras que los atacantes tienen más opciones de ataque.",
+      "releaseDate": "Lanzamiento inicial, 2020",
+      "imageUrl": "https://media.valorant-api.com/maps/2bee0dc9-4ffe-519b-1cbd-7fbe763a6047/splash.png",
+      "features": "Tres sitios de bombas, Múltiples ventanas y posiciones elevadas, Connector central"
+    },
+    "icebox": {
+      "name": "Icebox",
+      "location": "Rusia",
+      "description": "Una instalación de investigación en el Ártico con muchas posiciones verticales y ángulos complejos. Icebox favorece las emboscadas y el combate vertical.",
+      "releaseDate": "Octubre 2020",
+      "imageUrl": "https://media.valorant-api.com/maps/e2ad5c54-4114-a870-9641-8ea21279579a/splash.png",
+      "features": "Tirolinas, Múltiples posiciones verticales, Contenedores escalables"
+    },
+    "lotus": {
+      "name": "Lotus",
+      "location": "Oeste de la India",
+      "description": "Un complejo olvidado con tres sitios y puertas giratorias. Lotus presenta múltiples rutas y un diseño no lineal que favorece estrategias creativas.",
+      "releaseDate": "Enero 2023",
+      "imageUrl": "https://media.valorant-api.com/maps/2fe4ed3a-450a-948b-6d6b-e89a78e680a9/splash.png",
+      "features": "Puertas giratorias, Tres sitios de bombas, Destructor para acceder a sitios"
+    },
+    "pearl": {
+      "name": "Pearl",
+      "location": "Portugal (bajo el agua)",
+      "description": "Una ciudad submarina con diseño tradicional de dos sitios sin mecánicas especiales. Pearl favorece el juego fundamentado y el control de posición.",
+      "releaseDate": "Junio 2022",
+      "imageUrl": "https://media.valorant-api.com/maps/fd267378-4d1d-484f-ff52-77821ed10dc2/splash.png",
+      "features": "Diseño sin mecánicas especiales, Múltiples niveles, Zona media compleja"
+    },
+    "split": {
+      "name": "Split",
+      "location": "Japón",
+      "description": "Un mapa vertical de dos sitios con una zona media elevada. Las rampas y cuerdas crean dinámicas verticales interesantes para ataques y defensas.",
+      "releaseDate": "Lanzamiento inicial, 2020",
+      "imageUrl": "https://media.valorant-api.com/maps/d960549e-485c-e861-8d71-aa9d1aed12a2/splash.png",
+      "features": "Posiciones elevadas, Cuerdas para subir niveles, Varios callejones estrechos"
+    },
+    "sunset": {
+      "name": "Sunset",
+      "location": "Los Ángeles, EE.UU.",
+      "description": "Un glamoroso conjunto de Hollywood con dos sitios. Sunset ofrece una mezcla de áreas abiertas y corredores estrechos, ideal para diferentes estilos de juego.",
+      "releaseDate": "Agosto 2023",
+      "imageUrl": "https://media.valorant-api.com/maps/92584fbe-486a-b1b2-9faa-39b0f486b498/splash.png",
+      "features": "Mezcla de espacios abiertos y cerrados, Punto medio con múltiples niveles, Diseño intuitivo"
+    },
+    "district": {
+      "name": "District",
+      "location": "Ciudad futurista",
+      "description": "Un mapa urbano compacto y simétrico diseñado para los modos competitivos alternativos de VALORANT. District tiene un diseño circular con múltiples rutas.",
+      "releaseDate": "2023",
+      "imageUrl": "https://media.valorant-api.com/maps/07b16432-49bd-0ffb-5d90-6ba2b6602f91/splash.png",
+      "features": "Diseño circular, Múltiples rutas, Optimizado para Team Deathmatch"
+    },
+    "kasbah": {
+      "name": "Kasbah",
+      "location": "Marruecos",
+      "description": "Un mapa pequeño y laberíntico inspirado en la arquitectura marroquí. Diseñado para modos de juego rápidos y enfrentamientos directos.",
+      "releaseDate": "2023",
+      "imageUrl": "https://media.valorant-api.com/maps/44e918a7-4d4d-937d-b965-e391b5f64bd6/splash.png",
+      "features": "Laberíntico, Áreas compactas, Optimizado para Deathmatch"
+    },
+    "piazza": {
+      "name": "Piazza",
+      "location": "Italia",
+      "description": "Una plaza italiana con múltiples niveles y posiciones de combate. Piazza está diseñado para enfrentamientos intensos y rotaciones rápidas.",
+      "releaseDate": "2023",
+      "imageUrl": "https://media.valorant-api.com/maps/5d0d3618-4f9d-1b9c-28a9-548dadd093b9/splash.png",
+      "features": "Múltiples niveles, Áreas de combate compactas, Optimizado para Team Deathmatch"
+    },
+    "drift": {
+      "name": "Drift",
+      "location": "Desierto",
+      "description": "Un mapa de desierto con largas líneas de visión y espacios abiertos. Drift está diseñado para enfrentamientos a media y larga distancia.",
+      "releaseDate": "2024",
+      "imageUrl": "https://media.valorant-api.com/maps/de28aa9b-4cbe-1003-320e-6cb3ec309557/splash.png",
+      "features": "Largas líneas de visión, Espacios abiertos, Optimizado para Deathmatch"
+    },
+    "abyss": {
+      "name": "Abyss",
+      "location": "Laboratorio subterráneo",
+      "description": "Un laboratorio secreto ubicado en lo profundo del océano. Abyss presenta múltiples niveles verticales y pasillos interconectados.",
+      "releaseDate": "2024",
+      "imageUrl": "https://media.valorant-api.com/maps/50649683-4e97-6707-78cc-6baa3091a5af/splash.png",
+      "features": "Verticabilidad extrema, Pasadizos interconectados, Optimizado para Team Deathmatch"
+    },
+    "canal": {
+      "name": "Canal",
+      "location": "Venecia, Italia",
+      "description": "Un mapa situado en los canales de Venecia, con múltiples rutas de agua y puentes. Canal ofrece combate a media distancia y opciones estratégicas.",
+      "releaseDate": "2024",
+      "imageUrl": "https://media.valorant-api.com/maps/34427b47-4e21-e143-9bf5-9381c2fb42f2/splash.png",
+      "features": "Rutas acuáticas, Puentes estratégicos, Áreas abiertas y cerradas"
+    },
+    "range": {
+      "name": "The Range",
+      "location": "Campo de entrenamiento de VALORANT",
+      "description": "El campo de entrenamiento oficial de VALORANT donde los agentes pueden practicar tiro, probar habilidades y mejorar su juego sin presiones.",
+      "releaseDate": "Lanzamiento inicial, 2020",
+      "imageUrl": "https://media.valorant-api.com/maps/ee613ee9-28b7-4beb-9666-08db13bb2244/splash.png",
+      "features": "Áreas de práctica de tiro, Polígono de tiro al plato, Zona de prueba de habilidades, Entrenamiento de puntería"
+    }
+  }
+}

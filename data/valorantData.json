@@ -1,0 +1,2401 @@
+{
+  "quiz": {
+    "categorias": [
+      "Agentes",
+      "Armas",
+      "Mapas",
+      "Habilidades",
+      "Esports",
+      "Historia",
+      "Mecánicas"
+    ],
+    "dificultades": {
+      "Fácil": 10,
+      "Media": 20,
+      "Difícil": 30,
+      "Experto": 50
+    },
+    "preguntas": [
+      {
+        "id": 1,
+        "pregunta": "¿Qué agente puede revivir a compañeros caídos?",
+        "opciones": [
+          "Reyna",
+          "Sage",
+          "Skye",
+          "Phoenix"
+        ],
+        "respuestaCorrecta": 1,
+        "dificultad": "Fácil",
+        "categoria": "Agentes",
+        "imagen": null
+      },
+      {
+        "id": 2,
+        "pregunta": "¿De qué país es originario Phoenix?",
+        "opciones": [
+          "Estados Unidos",
+          "Reino Unido",
+          "Australia",
+          "Jamaica"
+        ],
+        "respuestaCorrecta": 1,
+        "dificultad": "Fácil",
+        "categoria": "Agentes",
+        "imagen": null
+      },
+      {
+        "id": 3,
+        "pregunta": "¿Qué agente utiliza un arco con flechas de reconocimiento?",
+        "opciones": [
+          "Fade",
+          "Sova",
+          "Skye",
+          "Astra"
+        ],
+        "respuestaCorrecta": 1,
+        "dificultad": "Fácil",
+        "categoria": "Agentes",
+        "imagen": null
+      },
+      {
+        "id": 4,
+        "pregunta": "¿Cuál es el nombre real de Viper?",
+        "opciones": [
+          "Victoria",
+          "Sabine",
+          "Samantha",
+          "Vanessa"
+        ],
+        "respuestaCorrecta": 1,
+        "dificultad": "Media",
+        "categoria": "Agentes",
+        "imagen": null
+      },
+      {
+        "id": 5,
+        "pregunta": "¿Qué agente es originario de Corea del Sur?",
+        "opciones": [
+          "Neon",
+          "Sage",
+          "Jett",
+          "Reyna"
+        ],
+        "respuestaCorrecta": 2,
+        "dificultad": "Media",
+        "categoria": "Agentes",
+        "imagen": null
+      },
+      {
+        "id": 6,
+        "pregunta": "¿Qué agente tiene una hermana que fue víctima de experimentos con Radianita?",
+        "opciones": [
+          "Viper",
+          "Reyna",
+          "Killjoy",
+          "Phoenix"
+        ],
+        "respuestaCorrecta": 1,
+        "dificultad": "Difícil",
+        "categoria": "Agentes",
+        "imagen": null
+      },
+      {
+        "id": 7,
+        "pregunta": "¿De qué realidad alternativa proviene Harbor?",
+        "opciones": [
+          "Earth-2",
+          "MIRROR Earth",
+          "Omega Earth",
+          "Delta Earth"
+        ],
+        "respuestaCorrecta": 1,
+        "dificultad": "Difícil",
+        "categoria": "Agentes",
+        "imagen": null
+      },
+      {
+        "id": 8,
+        "pregunta": "¿Según el lore, qué agente ayudó a diseñar el Manto Protector (Spike Defuser)?",
+        "opciones": [
+          "Killjoy",
+          "Cypher",
+          "Chamber",
+          "Brimstone"
+        ],
+        "respuestaCorrecta": 0,
+        "dificultad": "Experto",
+        "categoria": "Agentes",
+        "imagen": null
+      },
+      {
+        "id": 9,
+        "pregunta": "¿Cuál de estas armas NO pertenece a la categoría de rifles?",
+        "opciones": [
+          "Vandal",
+          "Phantom",
+          "Bulldog",
+          "Spectre"
+        ],
+        "respuestaCorrecta": 3,
+        "dificultad": "Fácil",
+        "categoria": "Armas",
+        "imagen": null
+      },
+      {
+        "id": 10,
+        "pregunta": "¿Qué pistola se recibe gratuitamente en cada ronda?",
+        "opciones": [
+          "Classic",
+          "Sheriff",
+          "Ghost",
+          "Frenzy"
+        ],
+        "respuestaCorrecta": 0,
+        "dificultad": "Fácil",
+        "categoria": "Armas",
+        "imagen": null
+      },
+      {
+        "id": 11,
+        "pregunta": "¿Cuánto daño causa un disparo en la cabeza con Vandal a cualquier distancia?",
+        "opciones": [
+          "140",
+          "150",
+          "156",
+          "160"
+        ],
+        "respuestaCorrecta": 2,
+        "dificultad": "Media",
+        "categoria": "Armas",
+        "imagen": null
+      },
+      {
+        "id": 12,
+        "pregunta": "¿Cuál es el arma más cara del juego?",
+        "opciones": [
+          "Operator",
+          "Odin",
+          "Vandal",
+          "Guardian"
+        ],
+        "respuestaCorrecta": 0,
+        "dificultad": "Media",
+        "categoria": "Armas",
+        "imagen": null
+      },
+      {
+        "id": 13,
+        "pregunta": "¿A qué distancia el Phantom comienza a hacer menos daño en la cabeza?",
+        "opciones": [
+          "10 metros",
+          "15 metros",
+          "20 metros",
+          "30 metros"
+        ],
+        "respuestaCorrecta": 1,
+        "dificultad": "Difícil",
+        "categoria": "Armas",
+        "imagen": null
+      },
+      {
+        "id": 14,
+        "pregunta": "¿Cuántos créditos cuesta el cuchillo táctico?",
+        "opciones": [
+          "0",
+          "300",
+          "400",
+          "El cuchillo no se puede comprar"
+        ],
+        "respuestaCorrecta": 3,
+        "dificultad": "Difícil",
+        "categoria": "Armas",
+        "imagen": null
+      },
+      {
+        "id": 15,
+        "pregunta": "¿Cuál es el daño por segundo más alto entre todas las armas?",
+        "opciones": [
+          "Odin",
+          "Ares",
+          "Vandal",
+          "Judge"
+        ],
+        "respuestaCorrecta": 0,
+        "dificultad": "Experto",
+        "categoria": "Armas",
+        "imagen": null
+      },
+      {
+        "id": 16,
+        "pregunta": "¿Cuántos sitios de bomba tiene el mapa Haven?",
+        "opciones": [
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "respuestaCorrecta": 1,
+        "dificultad": "Fácil",
+        "categoria": "Mapas",
+        "imagen": null
+      },
+      {
+        "id": 17,
+        "pregunta": "¿En qué país se encuentra el mapa Bind?",
+        "opciones": [
+          "Italia",
+          "Estados Unidos",
+          "Marruecos",
+          "Japón"
+        ],
+        "respuestaCorrecta": 2,
+        "dificultad": "Fácil",
+        "categoria": "Mapas",
+        "imagen": null
+      },
+      {
+        "id": 18,
+        "pregunta": "¿Qué mapa tiene un barco hundido como decoración?",
+        "opciones": [
+          "Breeze",
+          "Icebox",
+          "Lotus",
+          "Pearl"
+        ],
+        "respuestaCorrecta": 0,
+        "dificultad": "Media",
+        "categoria": "Mapas",
+        "imagen": null
+      },
+      {
+        "id": 19,
+        "pregunta": "¿Qué mapa tiene una zona submarina con una ventana de cristal que muestra el océano?",
+        "opciones": [
+          "Lotus",
+          "Haven",
+          "Split",
+          "Pearl"
+        ],
+        "respuestaCorrecta": 3,
+        "dificultad": "Media",
+        "categoria": "Mapas",
+        "imagen": null
+      },
+      {
+        "id": 20,
+        "pregunta": "¿Qué mapa fue temporalmente removido de la rotación y luego reintroducido con cambios?",
+        "opciones": [
+          "Split",
+          "Fracture",
+          "Bind",
+          "Ascent"
+        ],
+        "respuestaCorrecta": 0,
+        "dificultad": "Difícil",
+        "categoria": "Mapas",
+        "imagen": null
+      },
+      {
+        "id": 21,
+        "pregunta": "¿Qué mapa tiene una grieta que divide el mapa en dos y muestra dos realidades?",
+        "opciones": [
+          "Fracture",
+          "Split",
+          "Breeze",
+          "Lotus"
+        ],
+        "respuestaCorrecta": 0,
+        "dificultad": "Difícil",
+        "categoria": "Mapas",
+        "imagen": null
+      },
+      {
+        "id": 22,
+        "pregunta": "¿Según el lore, qué instalación de Kingdom produjo un desastre que causó que una ciudad entera literalmente 'ascendiera'?",
+        "opciones": [
+          "Ascent",
+          "Icebox",
+          "Fracture",
+          "Bind"
+        ],
+        "respuestaCorrecta": 0,
+        "dificultad": "Experto",
+        "categoria": "Mapas",
+        "imagen": null
+      },
+      {
+        "id": 23,
+        "pregunta": "¿Qué agente tiene una habilidad que crea una pared de fuego?",
+        "opciones": [
+          "Viper",
+          "Phoenix",
+          "Brimstone",
+          "Cypher"
+        ],
+        "respuestaCorrecta": 1,
+        "dificultad": "Fácil",
+        "categoria": "Habilidades",
+        "imagen": null
+      },
+      {
+        "id": 24,
+        "pregunta": "¿Qué agente puede teletransportarse al final de la activación de su habilidad?",
+        "opciones": [
+          "Chamber",
+          "Omen",
+          "Yoru",
+          "Reyna"
+        ],
+        "respuestaCorrecta": 2,
+        "dificultad": "Fácil",
+        "categoria": "Habilidades",
+        "imagen": null
+      },
+      {
+        "id": 25,
+        "pregunta": "¿Qué habilidad de Sova puede revelar la ubicación de enemigos a través de paredes?",
+        "opciones": [
+          "Drone de Reconocimiento",
+          "Flecha de Reconocimiento",
+          "Choque de Relámpago",
+          "Furia del Cazador"
+        ],
+        "respuestaCorrecta": 1,
+        "dificultad": "Media",
+        "categoria": "Habilidades",
+        "imagen": null
+      },
+      {
+        "id": 26,
+        "pregunta": "¿Cuánto tiempo dura la ceguera máxima de la habilidad 'Destello' de Phoenix?",
+        "opciones": [
+          "1.1 segundos",
+          "1.5 segundos",
+          "2.0 segundos",
+          "2.5 segundos"
+        ],
+        "respuestaCorrecta": 1,
+        "dificultad": "Media",
+        "categoria": "Habilidades",
+        "imagen": null
+      },
+      {
+        "id": 27,
+        "pregunta": "¿Cuánto cuesta la habilidad 'Empress' de Reyna?",
+        "opciones": [
+          "6 puntos",
+          "7 puntos",
+          "8 puntos",
+          "Empress no tiene costo, es la ultimate"
+        ],
+        "respuestaCorrecta": 3,
+        "dificultad": "Difícil",
+        "categoria": "Habilidades",
+        "imagen": null
+      },
+      {
+        "id": 28,
+        "pregunta": "¿La habilidad de qué agente puede desactivar temporalmente los poderes radiantes de otros agentes?",
+        "opciones": [
+          "Cypher",
+          "Gekko",
+          "KAY/O",
+          "Chamber"
+        ],
+        "respuestaCorrecta": 2,
+        "dificultad": "Difícil",
+        "categoria": "Habilidades",
+        "imagen": null
+      },
+      {
+        "id": 29,
+        "pregunta": "¿Qué habilidad puede neutralizar la ultimate de Killjoy incluso después de activada?",
+        "opciones": [
+          "La ultimate de KAY/O",
+          "La granada de Breach",
+          "La ultimate de Brimstone",
+          "El teleport de Omen"
+        ],
+        "respuestaCorrecta": 0,
+        "dificultad": "Experto",
+        "categoria": "Habilidades",
+        "imagen": null
+      },
+      {
+        "id": 30,
+        "pregunta": "¿Qué equipo ganó el primer Valorant Champions Tour?",
+        "opciones": [
+          "Sentinels",
+          "Fnatic",
+          "Acend",
+          "LOUD"
+        ],
+        "respuestaCorrecta": 2,
+        "dificultad": "Fácil",
+        "categoria": "Esports",
+        "imagen": null
+      },
+      {
+        "id": 31,
+        "pregunta": "¿De qué región es el equipo Fnatic?",
+        "opciones": [
+          "Norteamérica",
+          "Europa",
+          "Brasil",
+          "Corea"
+        ],
+        "respuestaCorrecta": 1,
+        "dificultad": "Fácil",
+        "categoria": "Esports",
+        "imagen": null
+      },
+      {
+        "id": 32,
+        "pregunta": "¿Qué jugador profesional es conocido por su Jett y anteriormente jugaba para el equipo Sentinels?",
+        "opciones": [
+          "ScreaM",
+          "TenZ",
+          "nAts",
+          "aspas"
+        ],
+        "respuestaCorrecta": 1,
+        "dificultad": "Media",
+        "categoria": "Esports",
+        "imagen": null
+      },
+      {
+        "id": 33,
+        "pregunta": "¿Qué torneo es considerado el más importante en el circuito competitivo de VALORANT?",
+        "opciones": [
+          "Masters",
+          "Champions",
+          "Challengers",
+          "Kickoff"
+        ],
+        "respuestaCorrecta": 1,
+        "dificultad": "Media",
+        "categoria": "Esports",
+        "imagen": null
+      },
+      {
+        "id": 34,
+        "pregunta": "¿Qué equipo ha sido el único en ganar dos veces el VALORANT Champions?",
+        "opciones": [
+          "Evil Geniuses",
+          "LOUD",
+          "Furia",
+          "Ningún equipo ha ganado dos veces"
+        ],
+        "respuestaCorrecta": 3,
+        "dificultad": "Difícil",
+        "categoria": "Esports",
+        "imagen": null
+      },
+      {
+        "id": 35,
+        "pregunta": "¿Qué jugador ostenta el récord de más eliminaciones en un solo mapa en un torneo internacional?",
+        "opciones": [
+          "Derke",
+          "cNed",
+          "yay",
+          "TenZ"
+        ],
+        "respuestaCorrecta": 0,
+        "dificultad": "Difícil",
+        "categoria": "Esports",
+        "imagen": null
+      },
+      {
+        "id": 36,
+        "pregunta": "¿En qué mapa se jugó la final del primer VALORANT Champions Tour?",
+        "opciones": [
+          "Bind",
+          "Split",
+          "Haven",
+          "Icebox"
+        ],
+        "respuestaCorrecta": 2,
+        "dificultad": "Experto",
+        "categoria": "Esports",
+        "imagen": null
+      },
+      {
+        "id": 37,
+        "pregunta": "¿Qué evento catastrófico marca el inicio de la historia de VALORANT?",
+        "opciones": [
+          "Día Cero",
+          "Primera Luz",
+          "La Convergencia",
+          "El Despertar"
+        ],
+        "respuestaCorrecta": 1,
+        "dificultad": "Fácil",
+        "categoria": "Historia",
+        "imagen": null
+      },
+      {
+        "id": 38,
+        "pregunta": "¿Qué corporación controla la mayor parte de la extracción de Radianita en el mundo de VALORANT?",
+        "opciones": [
+          "Valorant Corp",
+          "Radiant Industries",
+          "Kingdom",
+          "Future Earth"
+        ],
+        "respuestaCorrecta": 2,
+        "dificultad": "Fácil",
+        "categoria": "Historia",
+        "imagen": null
+      },
+      {
+        "id": 39,
+        "pregunta": "¿Qué sustancia otorga poderes a los Radiantes?",
+        "opciones": [
+          "Radianita",
+          "Valoranium",
+          "Hextech",
+          "Dunamita"
+        ],
+        "respuestaCorrecta": 0,
+        "dificultad": "Media",
+        "categoria": "Historia",
+        "imagen": null
+      },
+      {
+        "id": 40,
+        "pregunta": "¿Quién dirige el Protocolo VALORANT?",
+        "opciones": [
+          "Sage",
+          "Viper",
+          "Brimstone",
+          "Cypher"
+        ],
+        "respuestaCorrecta": 2,
+        "dificultad": "Media",
+        "categoria": "Historia",
+        "imagen": null
+      },
+      {
+        "id": 41,
+        "pregunta": "¿De qué futuro alternativo proviene KAY/O?",
+        "opciones": [
+          "Un futuro donde los humanos perdieron contra los Radiantes",
+          "Un futuro donde Kingdom controla todo",
+          "Un futuro donde los robots dominan",
+          "Un futuro donde la Radianita ha desaparecido"
+        ],
+        "respuestaCorrecta": 0,
+        "dificultad": "Difícil",
+        "categoria": "Historia",
+        "imagen": null
+      },
+      {
+        "id": 42,
+        "pregunta": "¿Qué organización rivaliza con Kingdom en MIRROR Earth?",
+        "opciones": [
+          "REALM",
+          "SHADOW",
+          "MIRROR",
+          "OMEGA"
+        ],
+        "respuestaCorrecta": 0,
+        "dificultad": "Difícil",
+        "categoria": "Historia",
+        "imagen": null
+      },
+      {
+        "id": 43,
+        "pregunta": "¿Según el lore, qué agente trabajó anteriormente para Kingdom antes de unirse al Protocolo VALORANT?",
+        "opciones": [
+          "Chamber",
+          "Viper",
+          "Cypher",
+          "Omen"
+        ],
+        "respuestaCorrecta": 1,
+        "dificultad": "Experto",
+        "categoria": "Historia",
+        "imagen": null
+      },
+      {
+        "id": 44,
+        "pregunta": "¿Cuántos puntos se necesitan para ganar una partida competitiva?",
+        "opciones": [
+          "10",
+          "12",
+          "13",
+          "15"
+        ],
+        "respuestaCorrecta": 2,
+        "dificultad": "Fácil",
+        "categoria": "Mecánicas",
+        "imagen": null
+      },
+      {
+        "id": 45,
+        "pregunta": "¿Cuánto dura la fase de compra al inicio de cada ronda?",
+        "opciones": [
+          "30 segundos",
+          "40 segundos",
+          "45 segundos",
+          "60 segundos"
+        ],
+        "respuestaCorrecta": 0,
+        "dificultad": "Fácil",
+        "categoria": "Mecánicas",
+        "imagen": null
+      },
+      {
+        "id": 46,
+        "pregunta": "¿Cuánto tiempo tarda en explotar el Spike una vez plantado?",
+        "opciones": [
+          "30 segundos",
+          "35 segundos",
+          "40 segundos",
+          "45 segundos"
+        ],
+        "respuestaCorrecta": 2,
+        "dificultad": "Media",
+        "categoria": "Mecánicas",
+        "imagen": null
+      },
+      {
+        "id": 47,
+        "pregunta": "¿Cuánto dinero se recibe por ganar una ronda?",
+        "opciones": [
+          "2000",
+          "2400",
+          "3000",
+          "3200"
+        ],
+        "respuestaCorrecta": 2,
+        "dificultad": "Media",
+        "categoria": "Mecánicas",
+        "imagen": null
+      },
+      {
+        "id": 48,
+        "pregunta": "¿Cuál es el máximo de créditos que un jugador puede acumular?",
+        "opciones": [
+          "9000",
+          "10000",
+          "12000",
+          "15000"
+        ],
+        "respuestaCorrecta": 1,
+        "dificultad": "Difícil",
+        "categoria": "Mecánicas",
+        "imagen": null
+      },
+      {
+        "id": 49,
+        "pregunta": "¿Cuánto dura el efecto de 'vulnerabilidad' que aplican ciertas habilidades?",
+        "opciones": [
+          "2 segundos",
+          "3 segundos",
+          "4 segundos",
+          "5 segundos"
+        ],
+        "respuestaCorrecta": 1,
+        "dificultad": "Difícil",
+        "categoria": "Mecánicas",
+        "imagen": null
+      },
+      {
+        "id": 50,
+        "pregunta": "¿Qué porcentaje de la velocidad de movimiento reduce la habilidad de ralentización de Sage?",
+        "opciones": [
+          "30%",
+          "40%",
+          "50%",
+          "60%"
+        ],
+        "respuestaCorrecta": 1,
+        "dificultad": "Experto",
+        "categoria": "Mecánicas",
+        "imagen": null
+      },
+      {
+        "id": 51,
+        "pregunta": "¿Qué agente tiene la habilidad de lanzar bolas de fuego?",
+        "opciones": [
+          "Viper",
+          "Reyna",
+          "Phoenix",
+          "Killjoy"
+        ],
+        "respuestaCorrecta": 2,
+        "dificultad": "Fácil",
+        "categoria": "Agentes",
+        "imagen": null
+      },
+      {
+        "id": 52,
+        "pregunta": "¿Qué agente puede crear una barrera de hielo?",
+        "opciones": [
+          "Sage",
+          "Omen",
+          "Harbor",
+          "Killjoy"
+        ],
+        "respuestaCorrecta": 0,
+        "dificultad": "Fácil",
+        "categoria": "Agentes",
+        "imagen": null
+      },
+      {
+        "id": 53,
+        "pregunta": "¿De qué nacionalidad es Raze?",
+        "opciones": [
+          "Mexicana",
+          "Colombiana",
+          "Brasileña",
+          "Argentina"
+        ],
+        "respuestaCorrecta": 2,
+        "dificultad": "Fácil",
+        "categoria": "Agentes",
+        "imagen": null
+      },
+      {
+        "id": 54,
+        "pregunta": "¿Qué agente tiene un dron que puede marcar a los enemigos?",
+        "opciones": [
+          "Cypher",
+          "Sova",
+          "Skye",
+          "Fade"
+        ],
+        "respuestaCorrecta": 1,
+        "dificultad": "Media",
+        "categoria": "Agentes",
+        "imagen": null
+      },
+      {
+        "id": 55,
+        "pregunta": "¿Cuál de los siguientes agentes NO es un controlador?",
+        "opciones": [
+          "Astra",
+          "Omen",
+          "Harbor",
+          "Cypher"
+        ],
+        "respuestaCorrecta": 3,
+        "dificultad": "Media",
+        "categoria": "Agentes",
+        "imagen": null
+      },
+      {
+        "id": 56,
+        "pregunta": "¿Qué agente tiene una habilidad que puede detectar el sonido de los enemigos?",
+        "opciones": [
+          "Cypher",
+          "Sova",
+          "Fade",
+          "Skye"
+        ],
+        "respuestaCorrecta": 2,
+        "dificultad": "Difícil",
+        "categoria": "Agentes",
+        "imagen": null
+      },
+      {
+        "id": 57,
+        "pregunta": "¿De qué nacionalidad es Harbor?",
+        "opciones": [
+          "Paquistaní",
+          "Indio",
+          "Bangladesí",
+          "Nepalí"
+        ],
+        "respuestaCorrecta": 1,
+        "dificultad": "Difícil",
+        "categoria": "Agentes",
+        "imagen": null
+      },
+      {
+        "id": 58,
+        "pregunta": "¿Qué relación tienen Brimstone y Viper según el lore?",
+        "opciones": [
+          "Son hermanos",
+          "Son pareja",
+          "Antiguos colegas en el ejército",
+          "No hay relación confirmada en el lore"
+        ],
+        "respuestaCorrecta": 2,
+        "dificultad": "Experto",
+        "categoria": "Agentes",
+        "imagen": null
+      },
+      {
+        "id": 59,
+        "pregunta": "¿Qué agente tiene una habilidad que hace referencia a la canción 'Run It' de DJ Snake?",
+        "opciones": [
+          "Raze",
+          "Neon",
+          "Jett",
+          "Phoenix"
+        ],
+        "respuestaCorrecta": 3,
+        "dificultad": "Experto",
+        "categoria": "Agentes",
+        "imagen": null
+      },
+      {
+        "id": 60,
+        "pregunta": "¿Qué arma tiene la capacidad de disparar a través de las paredes con mayor poder de penetración?",
+        "opciones": [
+          "Vandal",
+          "Phantom",
+          "Operator",
+          "Sheriff"
+        ],
+        "respuestaCorrecta": 2,
+        "dificultad": "Fácil",
+        "categoria": "Armas",
+        "imagen": null
+      },
+      {
+        "id": 61,
+        "pregunta": "¿En qué categoría se clasifica el arma Spectre?",
+        "opciones": [
+          "Rifles",
+          "Pistolas",
+          "Subfusiles",
+          "Escopetas"
+        ],
+        "respuestaCorrecta": 2,
+        "dificultad": "Fácil",
+        "categoria": "Armas",
+        "imagen": null
+      },
+      {
+        "id": 62,
+        "pregunta": "¿Cuánto cuesta el rifle Guardian?",
+        "opciones": [
+          "2250 créditos",
+          "2400 créditos",
+          "2700 créditos",
+          "3000 créditos"
+        ],
+        "respuestaCorrecta": 1,
+        "dificultad": "Media",
+        "categoria": "Armas",
+        "imagen": null
+      },
+      {
+        "id": 63,
+        "pregunta": "¿Qué arma tiene un modo de disparo alternativo que permite disparar ráfagas de tres balas?",
+        "opciones": [
+          "Bulldog",
+          "Phantom",
+          "Vandal",
+          "Stinger"
+        ],
+        "respuestaCorrecta": 0,
+        "dificultad": "Media",
+        "categoria": "Armas",
+        "imagen": null
+      },
+      {
+        "id": 64,
+        "pregunta": "¿Cuál es el daño máximo que puede causar un disparo al cuerpo con la pistola Sheriff?",
+        "opciones": [
+          "55",
+          "65",
+          "80",
+          "88"
+        ],
+        "respuestaCorrecta": 1,
+        "dificultad": "Difícil",
+        "categoria": "Armas",
+        "imagen": null
+      },
+      {
+        "id": 65,
+        "pregunta": "¿Qué arma tiene la cadencia de fuego más alta en el juego?",
+        "opciones": [
+          "Odin",
+          "Frenzy",
+          "Stinger",
+          "Spectre"
+        ],
+        "respuestaCorrecta": 1,
+        "dificultad": "Difícil",
+        "categoria": "Armas",
+        "imagen": null
+      },
+      {
+        "id": 66,
+        "pregunta": "¿A qué distancia el Operator reduce su daño al disparar a las piernas?",
+        "opciones": [
+          "No se reduce a ninguna distancia",
+          "15 metros",
+          "30 metros",
+          "El Operator siempre hace daño reducido a las piernas"
+        ],
+        "respuestaCorrecta": 3,
+        "dificultad": "Experto",
+        "categoria": "Armas",
+        "imagen": null
+      },
+      {
+        "id": 67,
+        "pregunta": "¿En qué versión del juego se añadió la escopeta Shorty?",
+        "opciones": [
+          "Beta",
+          "1.0",
+          "2.0",
+          "La Shorty ha estado desde el inicio"
+        ],
+        "respuestaCorrecta": 3,
+        "dificultad": "Experto",
+        "categoria": "Armas",
+        "imagen": null
+      },
+      {
+        "id": 68,
+        "pregunta": "¿Qué mapa tiene teletransportadores?",
+        "opciones": [
+          "Bind",
+          "Haven",
+          "Ascent",
+          "Fracture"
+        ],
+        "respuestaCorrecta": 0,
+        "dificultad": "Fácil",
+        "categoria": "Mapas",
+        "imagen": null
+      },
+      {
+        "id": 69,
+        "pregunta": "¿Cuántos sitios de bomba tienen la mayoría de los mapas?",
+        "opciones": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "respuestaCorrecta": 1,
+        "dificultad": "Fácil",
+        "categoria": "Mapas",
+        "imagen": null
+      },
+      {
+        "id": 70,
+        "pregunta": "¿En qué mapa hay una puerta que puede abrirse y cerrarse?",
+        "opciones": [
+          "Haven",
+          "Ascent",
+          "Breeze",
+          "Split"
+        ],
+        "respuestaCorrecta": 1,
+        "dificultad": "Media",
+        "categoria": "Mapas",
+        "imagen": null
+      },
+      {
+        "id": 71,
+        "pregunta": "¿Qué mapa está ambientado en una base de investigación polar?",
+        "opciones": [
+          "Fracture",
+          "Icebox",
+          "Lotus",
+          "Pearl"
+        ],
+        "respuestaCorrecta": 1,
+        "dificultad": "Media",
+        "categoria": "Mapas",
+        "imagen": null
+      },
+      {
+        "id": 72,
+        "pregunta": "¿Qué mapa tiene una zona llamada 'B Link'?",
+        "opciones": [
+          "Split",
+          "Haven",
+          "Ascent",
+          "Bind"
+        ],
+        "respuestaCorrecta": 0,
+        "dificultad": "Difícil",
+        "categoria": "Mapas",
+        "imagen": null
+      },
+      {
+        "id": 73,
+        "pregunta": "¿Qué mapa fue el último en añadirse a la rotación competitiva en 2023?",
+        "opciones": [
+          "Sunset",
+          "Lotus",
+          "Pearl",
+          "Fracture"
+        ],
+        "respuestaCorrecta": 0,
+        "dificultad": "Difícil",
+        "categoria": "Mapas",
+        "imagen": null
+      },
+      {
+        "id": 74,
+        "pregunta": "¿En qué ciudad se basa el diseño del mapa Pearl?",
+        "opciones": [
+          "Lisboa",
+          "Barcelona",
+          "Venecia",
+          "Oporto"
+        ],
+        "respuestaCorrecta": 0,
+        "dificultad": "Experto",
+        "categoria": "Mapas",
+        "imagen": null
+      },
+      {
+        "id": 75,
+        "pregunta": "¿Qué mapa tiene referencias ocultas a personajes de League of Legends?",
+        "opciones": [
+          "Pearl",
+          "Haven",
+          "Lotus",
+          "Bind"
+        ],
+        "respuestaCorrecta": 2,
+        "dificultad": "Experto",
+        "categoria": "Mapas",
+        "imagen": null
+      },
+      {
+        "id": 76,
+        "pregunta": "¿Qué habilidad de Jett le permite elevarse en el aire?",
+        "opciones": [
+          "Tailwind",
+          "Updraft",
+          "Cloudburst",
+          "Blade Storm"
+        ],
+        "respuestaCorrecta": 1,
+        "dificultad": "Fácil",
+        "categoria": "Habilidades",
+        "imagen": null
+      },
+      {
+        "id": 77,
+        "pregunta": "¿Qué agente tiene la habilidad 'Almatronic' que permite desplegar un robot?",
+        "opciones": [
+          "Raze",
+          "Killjoy",
+          "Cypher",
+          "Gekko"
+        ],
+        "respuestaCorrecta": 3,
+        "dificultad": "Fácil",
+        "categoria": "Habilidades",
+        "imagen": null
+      },
+      {
+        "id": 78,
+        "pregunta": "¿Cuánto dura la ceguera provocada por la habilidad 'Curveball' de Phoenix?",
+        "opciones": [
+          "1 segundo",
+          "1.5 segundos",
+          "2 segundos",
+          "2.5 segundos"
+        ],
+        "respuestaCorrecta": 1,
+        "dificultad": "Media",
+        "categoria": "Habilidades",
+        "imagen": null
+      },
+      {
+        "id": 79,
+        "pregunta": "¿Cuántas granadas de fragmentación puede llevar Raze en una ronda?",
+        "opciones": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "respuestaCorrecta": 0,
+        "dificultad": "Media",
+        "categoria": "Habilidades",
+        "imagen": null
+      },
+      {
+        "id": 80,
+        "pregunta": "¿Cuánto daño máximo puede hacer la habilidad 'Hot Hands' de Phoenix?",
+        "opciones": [
+          "50",
+          "60",
+          "100",
+          "150"
+        ],
+        "respuestaCorrecta": 2,
+        "dificultad": "Difícil",
+        "categoria": "Habilidades",
+        "imagen": null
+      },
+      {
+        "id": 81,
+        "pregunta": "¿Qué habilidad de Yoru le permite ver y escuchar a través de dimensiones?",
+        "opciones": [
+          "Dimensional Drift",
+          "Fakeout",
+          "Gatecrash",
+          "Blindside"
+        ],
+        "respuestaCorrecta": 0,
+        "dificultad": "Difícil",
+        "categoria": "Habilidades",
+        "imagen": null
+      },
+      {
+        "id": 82,
+        "pregunta": "¿Cuál fue la primera habilidad en ser removida y completamente rediseñada después del lanzamiento?",
+        "opciones": [
+          "Paranoia de Omen",
+          "Resurrect de Sage",
+          "Spycam de Cypher",
+          "Trapwire de Cypher"
+        ],
+        "respuestaCorrecta": 0,
+        "dificultad": "Experto",
+        "categoria": "Habilidades",
+        "imagen": null
+      },
+      {
+        "id": 83,
+        "pregunta": "¿Cuánto tiempo tarda en recargarse la habilidad 'Headhunter' de Chamber después de usar todos sus tiros?",
+        "opciones": [
+          "30 segundos",
+          "45 segundos",
+          "No se recarga hasta la siguiente ronda",
+          "60 segundos"
+        ],
+        "respuestaCorrecta": 1,
+        "dificultad": "Experto",
+        "categoria": "Habilidades",
+        "imagen": null
+      },
+      {
+        "id": 84,
+        "pregunta": "¿Cuál es el nombre del evento mundial más importante de VALORANT?",
+        "opciones": [
+          "VALORANT World Cup",
+          "VALORANT Champions",
+          "VALORANT Invitational",
+          "VALORANT Masters"
+        ],
+        "respuestaCorrecta": 1,
+        "dificultad": "Fácil",
+        "categoria": "Esports",
+        "imagen": null
+      },
+      {
+        "id": 85,
+        "pregunta": "¿Qué equipo ganó el VALORANT Champions 2023?",
+        "opciones": [
+          "Fnatic",
+          "Paper Rex",
+          "Evil Geniuses",
+          "LOUD"
+        ],
+        "respuestaCorrecta": 2,
+        "dificultad": "Fácil",
+        "categoria": "Esports",
+        "imagen": null
+      },
+      {
+        "id": 86,
+        "pregunta": "¿Qué país ha ganado más torneos internacionales de VALORANT?",
+        "opciones": [
+          "Estados Unidos",
+          "Corea del Sur",
+          "Brasil",
+          "Ningún país ha dominado claramente"
+        ],
+        "respuestaCorrecta": 3,
+        "dificultad": "Media",
+        "categoria": "Esports",
+        "imagen": null
+      },
+      {
+        "id": 87,
+        "pregunta": "¿Qué jugador de VALORANT tiene el apodo de 'El Diablo'?",
+        "opciones": [
+          "TenZ",
+          "ScreaM",
+          "Boaster",
+          "yay"
+        ],
+        "respuestaCorrecta": 3,
+        "dificultad": "Media",
+        "categoria": "Esports",
+        "imagen": null
+      },
+      {
+        "id": 88,
+        "pregunta": "¿Qué equipo tiene el récord de eliminaciones en un solo mapa en un torneo internacional?",
+        "opciones": [
+          "Sentinels",
+          "LOUD",
+          "DRX",
+          "Paper Rex"
+        ],
+        "respuestaCorrecta": 3,
+        "dificultad": "Difícil",
+        "categoria": "Esports",
+        "imagen": null
+      },
+      {
+        "id": 89,
+        "pregunta": "¿Qué equipo logró ganar un torneo internacional sin perder un solo mapa?",
+        "opciones": [
+          "Sentinels",
+          "DRX",
+          "Fnatic",
+          "Ninguno lo ha logrado"
+        ],
+        "respuestaCorrecta": 0,
+        "dificultad": "Difícil",
+        "categoria": "Esports",
+        "imagen": null
+      },
+      {
+        "id": 90,
+        "pregunta": "¿Qué agente nunca ha sido seleccionado en una final de un torneo internacional importante?",
+        "opciones": [
+          "Harbor",
+          "Yoru",
+          "Phoenix",
+          "Todos han sido seleccionados al menos una vez"
+        ],
+        "respuestaCorrecta": 3,
+        "dificultad": "Experto",
+        "categoria": "Esports",
+        "imagen": null
+      },
+      {
+        "id": 91,
+        "pregunta": "¿Qué jugador profesional logró un ace (eliminar a todos los enemigos) usando solo el cuchillo táctico en un torneo oficial?",
+        "opciones": [
+          "ScreaM",
+          "TenZ",
+          "Nunca ha ocurrido",
+          "Hiko"
+        ],
+        "respuestaCorrecta": 2,
+        "dificultad": "Experto",
+        "categoria": "Esports",
+        "imagen": null
+      },
+      {
+        "id": 92,
+        "pregunta": "¿Cómo se llama la organización que lucha contra Kingdom en el lore de VALORANT?",
+        "opciones": [
+          "VALORANT Squad",
+          "Protocolo VALORANT",
+          "Radiantes Unidos",
+          "Resistencia Radiante"
+        ],
+        "respuestaCorrecta": 1,
+        "dificultad": "Fácil",
+        "categoria": "Historia",
+        "imagen": null
+      },
+      {
+        "id": 93,
+        "pregunta": "¿Qué es un 'Radiante' en el universo de VALORANT?",
+        "opciones": [
+          "Un tipo de arma",
+          "Un humano con poderes sobrehumanos",
+          "Un miembro de Kingdom",
+          "Una sustancia explosiva"
+        ],
+        "respuestaCorrecta": 1,
+        "dificultad": "Fácil",
+        "categoria": "Historia",
+        "imagen": null
+      },
+      {
+        "id": 94,
+        "pregunta": "¿Qué agente tiene un pasado directamente conectado con Kingdom?",
+        "opciones": [
+          "Phoenix",
+          "Viper",
+          "Sage",
+          "Jett"
+        ],
+        "respuestaCorrecta": 1,
+        "dificultad": "Media",
+        "categoria": "Historia",
+        "imagen": null
+      },
+      {
+        "id": 95,
+        "pregunta": "¿En qué año aproximadamente ocurrió el evento de Primera Luz en el lore de VALORANT?",
+        "opciones": [
+          "2020",
+          "2039",
+          "2045",
+          "2050"
+        ],
+        "respuestaCorrecta": 1,
+        "dificultad": "Media",
+        "categoria": "Historia",
+        "imagen": null
+      },
+      {
+        "id": 96,
+        "pregunta": "¿Qué objeto de poder usa Harbor para controlar el agua?",
+        "opciones": [
+          "Un collar ancestral",
+          "Un brazalete",
+          "Un anillo",
+          "Un tridente"
+        ],
+        "respuestaCorrecta": 1,
+        "dificultad": "Difícil",
+        "categoria": "Historia",
+        "imagen": null
+      },
+      {
+        "id": 97,
+        "pregunta": "¿Qué relación tiene Reyna con su hermana según el lore?",
+        "opciones": [
+          "Su hermana murió por experimentos con Radianita",
+          "Su hermana trabaja para Kingdom",
+          "Su hermana es Viper",
+          "Su hermana está desaparecida"
+        ],
+        "respuestaCorrecta": 0,
+        "dificultad": "Difícil",
+        "categoria": "Historia",
+        "imagen": null
+      },
+      {
+        "id": 98,
+        "pregunta": "¿Cuánto tiempo se tarda en desactivar el Spike?",
+        "opciones": [
+          "3.5 segundos",
+          "4 segundos",
+          "7 segundos",
+          "10 segundos"
+        ],
+        "respuestaCorrecta": 2,
+        "dificultad": "Media",
+        "categoria": "Mecánicas",
+        "imagen": null
+      },
+      {
+        "id": 99,
+        "pregunta": "¿Cuánto dinero gana un equipo por perder una ronda?",
+        "opciones": [
+          "1400",
+          "1900",
+          "2400",
+          "Depende de si han perdido rondas consecutivas"
+        ],
+        "respuestaCorrecta": 3,
+        "dificultad": "Media",
+        "categoria": "Mecánicas",
+        "imagen": null
+      },
+      {
+        "id": 100,
+        "pregunta": "¿Qué sucede con la velocidad de movimiento cuando te disparan en las piernas?",
+        "opciones": [
+          "Se reduce un 20%",
+          "Se reduce un 30%",
+          "Se reduce un 50%",
+          "No tiene efecto en la velocidad"
+        ],
+        "respuestaCorrecta": 1,
+        "dificultad": "Experto",
+        "categoria": "Mecánicas",
+        "imagen": null
+      },
+          {
+      "id": 101,
+      "pregunta": "¿Qué agente tiene la habilidad de crear réplicas de sí mismo para confundir a los enemigos?",
+      "opciones": [
+        "Omen",
+        "Yoru",
+        "Reyna",
+        "KAY/O"
+      ],
+      "respuestaCorrecta": 1,
+      "dificultad": "Fácil",
+      "categoria": "Habilidades",
+      "imagen": null
+    },
+    {
+      "id": 102,
+      "pregunta": "¿Qué arma tiene el modo de disparo secundario 'ADS' más rápido?",
+      "opciones": [
+        "Vandal",
+        "Phantom",
+        "Guardian",
+        "Bulldog"
+      ],
+      "respuestaCorrecta": 2,
+      "dificultad": "Media",
+      "categoria": "Armas",
+      "imagen": null
+    },
+    {
+      "id": 103,
+      "pregunta": "¿Qué mapa de VALORANT está ambientado en Portugal?",
+      "opciones": [
+        "Sunset",
+        "Breeze",
+        "Pearl",
+        "Lotus"
+      ],
+      "respuestaCorrecta": 2,
+      "dificultad": "Media",
+      "categoria": "Mapas",
+      "imagen": null
+    },
+    {
+      "id": 104,
+      "pregunta": "¿Qué agente creó Gekko según el lore?",
+      "opciones": [
+        "Killjoy",
+        "Reyna",
+        "Sage",
+        "No fue creado, es un Radiante natural"
+      ],
+      "respuestaCorrecta": 3,
+      "dificultad": "Difícil",
+      "categoria": "Historia",
+      "imagen": null
+    },
+    {
+      "id": 105,
+      "pregunta": "¿Cuántos puntos de ultimate genera la recogida de un orbe?",
+      "opciones": [
+        "1",
+        "2",
+        "3",
+        "Depende del agente"
+      ],
+      "respuestaCorrecta": 0,
+      "dificultad": "Fácil",
+      "categoria": "Mecánicas",
+      "imagen": null
+    },
+    {
+      "id": 106,
+      "pregunta": "¿Qué equipo ganó el primer VALORANT Champions Tour: Masters?",
+      "opciones": [
+        "Sentinels",
+        "Vision Strikers",
+        "Fnatic",
+        "Team Liquid"
+      ],
+      "respuestaCorrecta": 0,
+      "dificultad": "Media",
+      "categoria": "Esports",
+      "imagen": null
+    },
+    {
+      "id": 107,
+      "pregunta": "¿Qué mural se encuentra en el mapa Split que vincula a VALORANT con otro juego de Riot Games?",
+      "opciones": [
+        "Un graffiti de Jinx",
+        "Un póster de K/DA",
+        "Un dibujo de Teemo",
+        "Una imagen de un dragón de Elder Ring"
+      ],
+      "respuestaCorrecta": 0,
+      "dificultad": "Experto",
+      "categoria": "Mapas",
+      "imagen": null
+    },
+    {
+      "id": 108,
+      "pregunta": "¿Qué agente puede neutralizar una ultimate de Killjoy ya desplegada?",
+      "opciones": [
+        "Sova",
+        "KAY/O",
+        "Skye",
+        "Astra"
+      ],
+      "respuestaCorrecta": 1,
+      "dificultad": "Media",
+      "categoria": "Habilidades",
+      "imagen": null
+    },
+    {
+      "id": 109,
+      "pregunta": "¿Qué significa 'eco round' en VALORANT?",
+      "opciones": [
+        "Una ronda donde el equipo usa principalmente habilidades que dañan",
+        "Una ronda donde el equipo gasta poco o nada para ahorrar para la siguiente",
+        "Una ronda donde todos usan el mismo agente",
+        "Una ronda donde se intenta plantar/desactivar rápidamente"
+      ],
+      "respuestaCorrecta": 1,
+      "dificultad": "Fácil",
+      "categoria": "Mecánicas",
+      "imagen": null
+    },
+    {
+      "id": 110,
+      "pregunta": "¿Qué agente recolecta orbes de alma de los enemigos que mata?",
+      "opciones": [
+        "Reyna",
+        "Omen",
+        "Fade",
+        "Chamber"
+      ],
+      "respuestaCorrecta": 0,
+      "dificultad": "Fácil",
+      "categoria": "Agentes",
+      "imagen": null
+    },
+        {
+      "id": 111,
+      "pregunta": "¿Qué agente usa tecnología de duplicación para hacer copias de sus aliados?",
+      "opciones": [
+        "Clove",
+        "Deadlock",
+        "Iso",
+        "Harbor"
+      ],
+      "respuestaCorrecta": 0,
+      "dificultad": "Media",
+      "categoria": "Agentes",
+      "imagen": null
+    },
+    {
+      "id": 112,
+      "pregunta": "¿Qué agente tiene la habilidad 'Depredador' que envía un lobo espectral?",
+      "opciones": [
+        "Reyna",
+        "Skye",
+        "Fade",
+        "Astra"
+      ],
+      "respuestaCorrecta": 2,
+      "dificultad": "Fácil",
+      "categoria": "Habilidades",
+      "imagen": null
+    },
+    {
+      "id": 113,
+      "pregunta": "¿Cuánto cuesta la escopeta Judge?",
+      "opciones": [
+        "1500 créditos",
+        "1600 créditos",
+        "1850 créditos",
+        "2000 créditos"
+      ],
+      "respuestaCorrecta": 1,
+      "dificultad": "Media",
+      "categoria": "Armas",
+      "imagen": null
+    },
+    {
+      "id": 114,
+      "pregunta": "¿Qué equipo es conocido por su 'Iceland Run' donde dominaron el primer torneo internacional en 2021?",
+      "opciones": [
+        "Cloud9",
+        "Sentinels",
+        "Team Liquid",
+        "G2 Esports"
+      ],
+      "respuestaCorrecta": 1,
+      "dificultad": "Difícil",
+      "categoria": "Esports",
+      "imagen": null
+    },
+    {
+      "id": 115,
+      "pregunta": "¿Qué mecánica fue introducida para balancear el lado defensor y atacante en algunos mapas?",
+      "opciones": [
+        "Orbes de Ultimate",
+        "Puertas automáticas",
+        "Ziplines",
+        "Teletransportadores unidireccionales"
+      ],
+      "respuestaCorrecta": 0,
+      "dificultad": "Difícil",
+      "categoria": "Mecánicas",
+      "imagen": null
+    },
+    {
+      "id": 116,
+      "pregunta": "¿Cuál es el rango máximo en el sistema competitivo de VALORANT?",
+      "opciones": [
+        "Inmortal",
+        "Radiante",
+        "Ascendente",
+        "Vanguardia"
+      ],
+      "respuestaCorrecta": 1,
+      "dificultad": "Fácil",
+      "categoria": "Mecánicas",
+      "imagen": null
+    },
+    {
+      "id": 117,
+      "pregunta": "¿Qué mapa tiene tres sitios de plantación y un área central llamada 'Jardín'?",
+      "opciones": [
+        "Ascent",
+        "Haven",
+        "Lotus",
+        "Sunset"
+      ],
+      "respuestaCorrecta": 2,
+      "dificultad": "Media",
+      "categoria": "Mapas",
+      "imagen": null
+    },
+    {
+      "id": 118,
+      "pregunta": "Según el lore, ¿de qué material está hecho el 'Spike'?",
+      "opciones": [
+        "Titanio reforzado",
+        "Aleación de Kingdom",
+        "Radianita",
+        "Nunca se ha especificado"
+      ],
+      "respuestaCorrecta": 2,
+      "dificultad": "Experto",
+      "categoria": "Historia",
+      "imagen": null
+    },
+    {
+      "id": 119,
+      "pregunta": "¿Cuánto tiempo dura la habilidad 'Empress' de Reyna una vez activada?",
+      "opciones": [
+        "10 segundos",
+        "15 segundos",
+        "30 segundos",
+        "La duración se extiende con cada eliminación"
+      ],
+      "respuestaCorrecta": 3,
+      "dificultad": "Difícil",
+      "categoria": "Habilidades",
+      "imagen": null
+    },
+    {
+      "id": 120,
+      "pregunta": "¿Qué agente fue el primero en ser añadido después del lanzamiento oficial del juego?",
+      "opciones": [
+        "Killjoy",
+        "Skye",
+        "Astra",
+        "KAY/O"
+      ],
+      "respuestaCorrecta": 0,
+      "dificultad": "Experto",
+      "categoria": "Historia",
+      "imagen": null
+    },
+        {
+      "id": 121,
+      "pregunta": "¿Cuál es la nacionalidad de Iso?",
+      "opciones": [
+        "Chino",
+        "Coreano del Sur",
+        "Japonés",
+        "Tailandés"
+      ],
+      "respuestaCorrecta": 1,
+      "dificultad": "Media",
+      "categoria": "Agentes",
+      "imagen": null
+    },
+    {
+      "id": 122,
+      "pregunta": "¿Qué arma tiene la característica única de poder disparar a través del 'Smoke' de Viper sin penalización de visibilidad?",
+      "opciones": [
+        "Operator",
+        "Odin",
+        "Ninguna arma tiene esta característica",
+        "Guardian"
+      ],
+      "respuestaCorrecta": 2,
+      "dificultad": "Difícil",
+      "categoria": "Armas",
+      "imagen": null
+    },
+    {
+      "id": 123,
+      "pregunta": "¿Cuál de estos mapas fue diseñado específicamente con tres carriles muy definidos?",
+      "opciones": [
+        "Bind",
+        "Haven",
+        "Ascent",
+        "Split"
+      ],
+      "respuestaCorrecta": 1,
+      "dificultad": "Fácil",
+      "categoria": "Mapas",
+      "imagen": null
+    },
+    {
+      "id": 124,
+      "pregunta": "¿Qué habilidad de Deadlock puede crear una barrera que ralentiza y daña a los enemigos?",
+      "opciones": [
+        "GravNet",
+        "Sonic Sensor",
+        "Barrier Mesh",
+        "Annihilation"
+      ],
+      "respuestaCorrecta": 2,
+      "dificultad": "Media",
+      "categoria": "Habilidades",
+      "imagen": null
+    },
+    {
+      "id": 125,
+      "pregunta": "¿Qué organización se formó después del evento de Primera Luz para investigar y utilizar la Radianita?",
+      "opciones": [
+        "Kingdom Corporation",
+        "Valorant Protocol",
+        "REALM",
+        "Future Earth"
+      ],
+      "respuestaCorrecta": 0,
+      "dificultad": "Fácil",
+      "categoria": "Historia",
+      "imagen": null
+    },
+    {
+      "id": 126,
+      "pregunta": "¿Cuál es el máximo de puntos de armadura que un jugador puede tener?",
+      "opciones": [
+        "25",
+        "50",
+        "150",
+        "200"
+      ],
+      "respuestaCorrecta": 1,
+      "dificultad": "Fácil",
+      "categoria": "Mecánicas",
+      "imagen": null
+    },
+    {
+      "id": 127,
+      "pregunta": "¿Qué jugador profesional es conocido como 'The Last Dance' debido a su estilo de juego?",
+      "opciones": [
+        "TenZ",
+        "ScreaM",
+        "shroud",
+        "Mixwell"
+      ],
+      "respuestaCorrecta": 1,
+      "dificultad": "Experto",
+      "categoria": "Esports",
+      "imagen": null
+    },
+    {
+      "id": 128,
+      "pregunta": "¿Cuándo fue lanzado oficialmente VALORANT?",
+      "opciones": [
+        "2 de abril de 2020",
+        "2 de junio de 2020",
+        "14 de febrero de 2020",
+        "7 de agosto de 2020"
+      ],
+      "respuestaCorrecta": 1,
+      "dificultad": "Media",
+      "categoria": "Historia",
+      "imagen": null
+    },
+    {
+      "id": 129,
+      "pregunta": "¿Qué efecto produce la habilidad 'Paranoia' de Omen en los enemigos afectados?",
+      "opciones": [
+        "Ralentización y daño",
+        "Ceguera y reducción del rango de visión",
+        "Confusión de controles",
+        "Silenciamiento de habilidades"
+      ],
+      "respuestaCorrecta": 1,
+      "dificultad": "Fácil",
+      "categoria": "Habilidades",
+      "imagen": null
+    },
+    {
+      "id": 130,
+      "pregunta": "¿Qué sucede si dos jugadores intentan comprar para un tercero al mismo tiempo?",
+      "opciones": [
+        "Ambas compras son canceladas",
+        "La primera solicitud es aceptada y la segunda cancelada",
+        "Ambas compras son procesadas, desperdiciando créditos",
+        "El juego no permite solicitudes simultáneas"
+      ],
+      "respuestaCorrecta": 2,
+      "dificultad": "Experto",
+      "categoria": "Mecánicas",
+      "imagen": null
+    },
+        {
+      "id": 131,
+      "pregunta": "¿Qué agente utiliza nanobots para sus habilidades?",
+      "opciones": [
+        "Cypher",
+        "Killjoy",
+        "Sage",
+        "Chamber"
+      ],
+      "respuestaCorrecta": 1,
+      "dificultad": "Fácil",
+      "categoria": "Agentes",
+      "imagen": null
+    },
+    {
+      "id": 132,
+      "pregunta": "¿Qué aspecto especial tiene la skin 'Elderflame' al equiparse?",
+      "opciones": [
+        "Las armas se convierten en dragones",
+        "Las armas tienen efectos de fuego",
+        "Las armas cambian de color según las muertes",
+        "Las armas tienen efectos de agua"
+      ],
+      "respuestaCorrecta": 0,
+      "dificultad": "Fácil",
+      "categoria": "Armas",
+      "imagen": null
+    },
+    {
+      "id": 133,
+      "pregunta": "¿Cuál de estas No es una característica del mapa Sunset?",
+      "opciones": [
+        "Está ambientado en Los Ángeles",
+        "Tiene un área llamada 'Market'",
+        "Tiene cámaras de vigilancia que pueden ser destruidas",
+        "Tiene ziplines para moverse entre áreas"
+      ],
+      "respuestaCorrecta": 3,
+      "dificultad": "Media",
+      "categoria": "Mapas",
+      "imagen": null
+    },
+    {
+      "id": 134,
+      "pregunta": "¿Qué modo de juego temporal permitía a los jugadores usar cualquier combinación de agentes, incluso repetidos?",
+      "opciones": [
+        "Team Deathmatch",
+        "Escalation",
+        "Replication",
+        "Snowball Fight"
+      ],
+      "respuestaCorrecta": 2,
+      "dificultad": "Media",
+      "categoria": "Mecánicas",
+      "imagen": null
+    },
+    {
+      "id": 135,
+      "pregunta": "¿Qué habilidad de Clove permite revivirse a sí mismo después de morir?",
+      "opciones": [
+        "Meditate",
+        "Not Dead Yet",
+        "Pick Me Up",
+        "GLHF"
+      ],
+      "respuestaCorrecta": 1,
+      "dificultad": "Media",
+      "categoria": "Habilidades",
+      "imagen": null
+    },
+    {
+      "id": 136,
+      "pregunta": "Según el lore, ¿qué personaje fue el primer miembro reclutado para el Protocolo VALORANT?",
+      "opciones": [
+        "Viper",
+        "Sova",
+        "Brimstone",
+        "Cypher"
+      ],
+      "respuestaCorrecta": 0,
+      "dificultad": "Difícil",
+      "categoria": "Historia",
+      "imagen": null
+    },
+    {
+      "id": 137,
+      "pregunta": "¿Qué equipo ha tenido más participaciones en finales internacionales de VALORANT?",
+      "opciones": [
+        "Sentinels",
+        "LOUD",
+        "Fnatic",
+        "DRX"
+      ],
+      "respuestaCorrecta": 2,
+      "dificultad": "Difícil",
+      "categoria": "Esports",
+      "imagen": null
+    },
+    {
+      "id": 138,
+      "pregunta": "¿Qué ocurre cuando Jett dispara mientras está en el aire?",
+      "opciones": [
+        "Aumenta la precisión",
+        "Reduce el retroceso",
+        "Disminuye la precisión",
+        "No hay ningún cambio"
+      ],
+      "respuestaCorrecta": 2,
+      "dificultad": "Fácil",
+      "categoria": "Mecánicas",
+      "imagen": null
+    },
+    {
+      "id": 139,
+      "pregunta": "¿Qué personaje de VALORANT tiene una relación no confirmada pero insinuada con Brimstone?",
+      "opciones": [
+        "Viper",
+        "Sage",
+        "Killjoy",
+        "Reyna"
+      ],
+      "respuestaCorrecta": 0,
+      "dificultad": "Experto",
+      "categoria": "Historia",
+      "imagen": null
+    },
+    {
+      "id": 140,
+      "pregunta": "¿Qué habilidad puede contrarrestar directamente la ultimate 'Cosmic Divide' de Astra?",
+      "opciones": [
+        "La ultimate de Breach",
+        "La ultimate de Omen",
+        "La ultimate de Sova",
+        "Ninguna habilidad puede contrarrestarla directamente"
+      ],
+      "respuestaCorrecta": 3,
+      "dificultad": "Experto",
+      "categoria": "Habilidades",
+      "imagen": null
+    },
+        {
+      "id": 141,
+      "pregunta": "¿De qué nacionalidad es Deadlock?",
+      "opciones": [
+        "Noruega",
+        "Sueca",
+        "Danesa",
+        "Finlandesa"
+      ],
+      "respuestaCorrecta": 0,
+      "dificultad": "Media",
+      "categoria": "Agentes",
+      "imagen": null
+    },
+    {
+      "id": 142,
+      "pregunta": "¿Qué skin de VALORANT fue la primera en permitir personalizar el color?",
+      "opciones": [
+        "Prime",
+        "BlastX",
+        "Spectrum",
+        "Reaver"
+      ],
+      "respuestaCorrecta": 1,
+      "dificultad": "Difícil",
+      "categoria": "Armas",
+      "imagen": null
+    },
+    {
+      "id": 143,
+      "pregunta": "¿Qué mapa tiene una zona especial que hace sonidos cuando los jugadores pasan cerca?",
+      "opciones": [
+        "Fracture",
+        "Lotus",
+        "Ascent",
+        "Sunset"
+      ],
+      "respuestaCorrecta": 1,
+      "dificultad": "Experto",
+      "categoria": "Mapas",
+      "imagen": null
+    },
+    {
+      "id": 144,
+      "pregunta": "¿Qué sucede cuando se usa la habilidad 'Sobreimpulso' de Neon mientras se corre?",
+      "opciones": [
+        "Aumenta la velocidad un 20%",
+        "Permite deslizarse hacia adelante",
+        "Silencia los pasos",
+        "Recarga energía para su ultimate"
+      ],
+      "respuestaCorrecta": 1,
+      "dificultad": "Fácil",
+      "categoria": "Habilidades",
+      "imagen": null
+    },
+    {
+      "id": 145,
+      "pregunta": "¿Cuál es el nombre del padre de Jett según el lore?",
+      "opciones": [
+        "Jin",
+        "Han",
+        "Seon",
+        "No se ha revelado"
+      ],
+      "respuestaCorrecta": 3,
+      "dificultad": "Experto",
+      "categoria": "Historia",
+      "imagen": null
+    },
+    {
+      "id": 146,
+      "pregunta": "¿Qué evento especial introdujo el modo 'Snowball Fight' en VALORANT?",
+      "opciones": [
+        "Día de los Inocentes",
+        "Navidad",
+        "Halloween",
+        "Aniversario de VALORANT"
+      ],
+      "respuestaCorrecta": 1,
+      "dificultad": "Media",
+      "categoria": "Mecánicas",
+      "imagen": null
+    },
+    {
+      "id": 147,
+      "pregunta": "¿Qué equipo fue el primero en representar a Latinoamérica en una final internacional de VALORANT?",
+      "opciones": [
+        "KRÜ Esports",
+        "LOUD",
+        "Leviatán",
+        "FURIA"
+      ],
+      "respuestaCorrecta": 0,
+      "dificultad": "Difícil",
+      "categoria": "Esports",
+      "imagen": null
+    },
+    {
+      "id": 148,
+      "pregunta": "¿Qué habilidad de Iso le permite crear una barrera capaz de absorber balas?",
+      "opciones": [
+        "Double Tap",
+        "Contingency",
+        "Kill Contract",
+        "Bodyguard"
+      ],
+      "respuestaCorrecta": 1,
+      "dificultad": "Media",
+      "categoria": "Habilidades",
+      "imagen": null
+    },
+    {
+      "id": 149,
+      "pregunta": "¿Qué función tiene el 'Valorant Game Changers'?",
+      "opciones": [
+        "Un sistema para equilibrar agentes",
+        "Una plataforma para jugadores amateur",
+        "Una competición para jugadoras femeninas y personas de género marginado",
+        "Un programa de mentores para nuevos jugadores"
+      ],
+      "respuestaCorrecta": 2,
+      "dificultad": "Fácil",
+      "categoria": "Esports",
+      "imagen": null
+    },
+    {
+      "id": 150,
+      "pregunta": "¿Qué agente está relacionado directamente con la creación del Protocolo VALORANT?",
+      "opciones": [
+        "Brimstone",
+        "Viper",
+        "Omen",
+        "Sage"
+      ],
+      "respuestaCorrecta": 0,
+      "dificultad": "Difícil",
+      "categoria": "Historia",
+      "imagen": null
+    },
+        {
+      "id": 151,
+      "pregunta": "¿Cuántos créditos recibe cada jugador al inicio de la primera ronda?",
+      "opciones": [
+        "800",
+        "900",
+        "1000",
+        "1200"
+      ],
+      "respuestaCorrecta": 0,
+      "dificultad": "Fácil",
+      "categoria": "Economía",
+      "imagen": null
+    },
+    {
+      "id": 152,
+      "pregunta": "¿Cuántos créditos se obtienen por plantar el Spike (independientemente de ganar o perder la ronda)?",
+      "opciones": [
+        "200",
+        "300",
+        "500",
+        "No se obtienen créditos adicionales por plantar"
+      ],
+      "respuestaCorrecta": 1,
+      "dificultad": "Media",
+      "categoria": "Economía",
+      "imagen": null
+    },
+    {
+      "id": 153,
+      "pregunta": "¿Cuántos créditos se obtienen por eliminar a un enemigo?",
+      "opciones": [
+        "100",
+        "200",
+        "300",
+        "Depende del arma que use el enemigo"
+      ],
+      "respuestaCorrecta": 1,
+      "dificultad": "Fácil",
+      "categoria": "Economía",
+      "imagen": null
+    },
+    {
+      "id": 154,
+      "pregunta": "En una ronda perdida, ¿cuál es el máximo de créditos que puede recibir un equipo por pérdida?",
+      "opciones": [
+        "1900",
+        "2400",
+        "2900",
+        "3000"
+      ],
+      "respuestaCorrecta": 2,
+      "dificultad": "Media",
+      "categoria": "Economía",
+      "imagen": null
+    },
+    {
+      "id": 155,
+      "pregunta": "¿Cuántos créditos se obtienen por una ronda ganada con eliminación completa del equipo enemigo?",
+      "opciones": [
+        "2000",
+        "3000",
+        "3500",
+        "4000"
+      ],
+      "respuestaCorrecta": 1,
+      "dificultad": "Fácil",
+      "categoria": "Economía",
+      "imagen": null
+    },
+    {
+      "id": 156,
+      "pregunta": "¿Qué sucede con la economía cuando se cambia de lado en una partida competitiva?",
+      "opciones": [
+        "Todos los jugadores reciben 4000 créditos",
+        "Se reinicia a 800 créditos como al inicio",
+        "Se mantienen los créditos que tenían en la última ronda",
+        "Se otorgan 1000 créditos a cada jugador"
+      ],
+      "respuestaCorrecta": 0,
+      "dificultad": "Media",
+      "categoria": "Economía",
+      "imagen": null
+    },
+    {
+      "id": 157,
+      "pregunta": "¿Qué término se usa cuando un equipo ahorra sus créditos y compra solo pistolas para tener una mejor economía en rondas futuras?",
+      "opciones": [
+        "Save Round",
+        "Eco Round",
+        "Force Buy",
+        "Anti-Eco"
+      ],
+      "respuestaCorrecta": 1,
+      "dificultad": "Fácil",
+      "categoria": "Economía",
+      "imagen": null
+    },
+    {
+      "id": 158,
+      "pregunta": "Cuando un equipo gana varias rondas consecutivas y luego pierde, ¿cómo se llama el beneficio económico que reciben?",
+      "opciones": [
+        "Bono de estabilización",
+        "Créditos de reserva",
+        "Bono de pérdida de racha",
+        "No existe tal beneficio"
+      ],
+      "respuestaCorrecta": 2,
+      "dificultad": "Difícil",
+      "categoria": "Economía",
+      "imagen": null
+    },
+    {
+      "id": 159,
+      "pregunta": "¿Cuál es el conjunto más caro que un jugador puede comprar en una ronda (armadura completa + arma principal más cara + habilidades completas)?",
+      "opciones": [
+        "6200 créditos",
+        "7100 créditos",
+        "7900 créditos",
+        "8400 créditos"
+      ],
+      "respuestaCorrecta": 2,
+      "dificultad": "Experto",
+      "categoria": "Economía",
+      "imagen": null
+    },
+    {
+      "id": 160,
+      "pregunta": "¿Cuánto dinero se pierde al no desactivar el Spike a tiempo, pero eliminar a todos los atacantes?",
+      "opciones": [
+        "No se obtienen créditos por la ronda",
+        "Se obtienen 3000 créditos como una victoria normal",
+        "Se obtienen solo 1000 créditos",
+        "Se obtienen 2000 créditos"
+      ],
+      "respuestaCorrecta": 0,
+      "dificultad": "Difícil",
+      "categoria": "Economía",
+      "imagen": null
+    },
+        {
+      "id": 161,
+      "pregunta": "¿Qué se conoce como 'Marshal round' en términos de economía de VALORANT?",
+      "opciones": [
+        "Una ronda donde la mayoría del equipo compra rifles Marshal",
+        "Cuando un equipo compra Marshals en ronda anti-eco",
+        "La segunda ronda después de perder la inicial",
+        "Cuando solo un jugador puede permitirse un rifle"
+      ],
+      "respuestaCorrecta": 0,
+      "dificultad": "Media",
+      "categoria": "Economía",
+      "imagen": null
+    },
+    {
+      "id": 162,
+      "pregunta": "¿Cuántos créditos se obtienen por ganar una ronda mediante la eliminación del tiempo (los defensores ganan por tiempo)?",
+      "opciones": [
+        "2000",
+        "2400",
+        "3000",
+        "3200"
+      ],
+      "respuestaCorrecta": 2,
+      "dificultad": "Fácil",
+      "categoria": "Economía",
+      "imagen": null
+    },
+    {
+      "id": 163,
+      "pregunta": "¿Qué estrategia económica se conoce como 'Force Buy'?",
+      "opciones": [
+        "Ahorrar durante varias rondas y comprar armas completas después",
+        "Gastar todos los créditos disponibles aunque no sea suficiente para equipamiento completo",
+        "Cuando todo el equipo compra la misma arma",
+        "Guardar créditos y solo comprar pistolas"
+      ],
+      "respuestaCorrecta": 1,
+      "dificultad": "Fácil",
+      "categoria": "Economía",
+      "imagen": null
+    },
+    {
+      "id": 164,
+      "pregunta": "¿Cuánto cuesta la habilidad más cara entre todos los agentes?",
+      "opciones": [
+        "200 créditos",
+        "300 créditos",
+        "400 créditos",
+        "500 créditos"
+      ],
+      "respuestaCorrecta": 1,
+      "dificultad": "Media",
+      "categoria": "Economía",
+      "imagen": null
+    },
+    {
+      "id": 165,
+      "pregunta": "Si un equipo gana las primeras 7 rondas y luego pierde, ¿cuántos créditos recibirá por pérdida?",
+      "opciones": [
+        "1400",
+        "1900",
+        "2400",
+        "2900"
+      ],
+      "respuestaCorrecta": 3,
+      "dificultad": "Difícil",
+      "categoria": "Economía",
+      "imagen": null
+    },
+    {
+      "id": 166,
+      "pregunta": "¿Qué estrategia económica consiste en que algunos miembros del equipo guarden sus créditos mientras otros hacen 'Force Buy'?",
+      "opciones": [
+        "Half Buy",
+        "Split Economy",
+        "Mixed Buy",
+        "Staggered Economy"
+      ],
+      "respuestaCorrecta": 0,
+      "dificultad": "Media",
+      "categoria": "Economía",
+      "imagen": null
+    },
+    {
+      "id": 167,
+      "pregunta": "¿Cuánto cuesta un 'Light Shield' (escudo ligero)?",
+      "opciones": [
+        "300 créditos",
+        "400 créditos",
+        "600 créditos",
+        "1000 créditos"
+      ],
+      "respuestaCorrecta": 1,
+      "dificultad": "Fácil",
+      "categoria": "Economía",
+      "imagen": null
+    },
+    {
+      "id": 168,
+      "pregunta": "Si un jugador tiene 9000 créditos y muere en la ronda pero su equipo gana, ¿cuántos créditos tendrá en la siguiente ronda?",
+      "opciones": [
+        "9000 (el límite)",
+        "9000 + 3000 = 12000",
+        "9000 + 1000 = 10000 (el máximo posible)",
+        "9000 (no recibe bonificación por haber muerto)"
+      ],
+      "respuestaCorrecta": 2,
+      "dificultad": "Experto",
+      "categoria": "Economía",
+      "imagen": null
+    },
+    {
+      "id": 169,
+      "pregunta": "¿Qué término se usa cuando un equipo con buena economía enfrenta a un equipo en 'eco round'?",
+      "opciones": [
+        "Bonus Round",
+        "Anti-Eco",
+        "Advantage Round",
+        "Full-Eco Clash"
+      ],
+      "respuestaCorrecta": 1,
+      "dificultad": "Fácil",
+      "categoria": "Economía",
+      "imagen": null
+    },
+    {
+      "id": 170,
+      "pregunta": "En rondas de prórroga (overtime), ¿con cuántos créditos comienza cada jugador?",
+      "opciones": [
+        "4000",
+        "5000",
+        "7000",
+        "9000"
+      ],
+      "respuestaCorrecta": 2,
+      "dificultad": "Difícil",
+      "categoria": "Economía",
+      "imagen": null
+    }
+    ]
+  }
+}

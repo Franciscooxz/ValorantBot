@@ -1,0 +1,292 @@
+{
+  "weapons": {
+    "classic": {
+      "name": "Classic",
+      "type": "Pistola",
+      "cost": "Gratis",
+      "damage": {
+        "head": "78",
+        "body": "26",
+        "leg": "22"
+      },
+      "fireRate": "6.75 disparos/seg",
+      "magazineSize": "12",
+      "wallPenetration": "Baja",
+      "altFireMode": "Disparo de 3 balas con dispersión",
+      "description": "Pistola predeterminada que todos los agentes reciben al inicio de la ronda. Precisa y fiable en distancias cortas.",
+      "imageUrl": "https://media.valorant-api.com/weapons/29a0cfab-485b-f5d5-779a-b59f85e204a8/displayicon.png"
+    },
+    "shorty": {
+      "name": "Shorty",
+      "type": "Pistola",
+      "cost": "150",
+      "damage": {
+        "head": "36 por perdigón",
+        "body": "12 por perdigón",
+        "leg": "10 por perdigón"
+      },
+      "fireRate": "3.3 disparos/seg",
+      "magazineSize": "2",
+      "wallPenetration": "Baja",
+      "altFireMode": "Ninguno",
+      "description": "Escopeta de bolsillo a corta distancia. Mortal a distancias muy cortas pero totalmente ineficaz a distancias medias o largas.",
+      "imageUrl": "https://media.valorant-api.com/weapons/42da8ccc-40d5-affc-beec-15aa47b42eda/displayicon.png"
+    },
+    "frenzy": {
+      "name": "Frenzy",
+      "type": "Pistola",
+      "cost": "450",
+      "damage": {
+        "head": "78",
+        "body": "26",
+        "leg": "22"
+      },
+      "fireRate": "10 disparos/seg",
+      "magazineSize": "13",
+      "wallPenetration": "Baja",
+      "altFireMode": "Ninguno",
+      "description": "Pistola automática con alta cadencia de tiro. Efectiva en encuentros de corto alcance si puedes controlar su retroceso.",
+      "imageUrl": "https://media.valorant-api.com/weapons/44d4e95a-4157-0037-81b2-17841bf2a8e3/displayicon.png"
+    },
+    "ghost": {
+      "name": "Ghost",
+      "type": "Pistola",
+      "cost": "500",
+      "damage": {
+        "head": "105",
+        "body": "30",
+        "leg": "26"
+      },
+      "fireRate": "6.75 disparos/seg",
+      "magazineSize": "15",
+      "wallPenetration": "Media",
+      "altFireMode": "Ninguno",
+      "description": "Pistola silenciada con cargador grande. Ideal para rondas económicas cuando quieres mantener tu posición oculta.",
+      "imageUrl": "https://media.valorant-api.com/weapons/1baa85b4-4c70-1284-64bb-6481dfc3bb4e/displayicon.png"
+    },
+    "sheriff": {
+      "name": "Sheriff",
+      "type": "Pistola",
+      "cost": "800",
+      "damage": {
+        "head": "159",
+        "body": "55",
+        "leg": "47"
+      },
+      "fireRate": "4 disparos/seg",
+      "magazineSize": "6",
+      "wallPenetration": "Alta",
+      "altFireMode": "Ninguno",
+      "description": "Pistola de alto impacto con gran penetración. Si tu puntería es buena, el Sheriff ofrece eliminar de un disparo a la cabeza a cualquier distancia.",
+      "imageUrl": "https://media.valorant-api.com/weapons/e336c6b8-418d-9340-d77f-7a9e4cfe0702/displayicon.png"
+    },
+    "stinger": {
+      "name": "Stinger",
+      "type": "SMG",
+      "cost": "950",
+      "damage": {
+        "head": "67",
+        "body": "27",
+        "leg": "23"
+      },
+      "fireRate": "18 disparos/seg",
+      "magazineSize": "20",
+      "wallPenetration": "Baja",
+      "altFireMode": "Disparo de 4 balas con zoom 1.15x",
+      "description": "SMG de bajo costo pero alta cadencia de tiro. Efectiva en distancias cortas pero difícil de controlar a distancias medias o largas.",
+      "imageUrl": "https://media.valorant-api.com/weapons/f7e1b454-4ad4-1063-ec0a-159e56b58941/displayicon.png"
+    },
+    "spectre": {
+      "name": "Spectre",
+      "type": "SMG",
+      "cost": "1600",
+      "damage": {
+        "head": "78",
+        "body": "26",
+        "leg": "22"
+      },
+      "fireRate": "13.33 disparos/seg",
+      "magazineSize": "30",
+      "wallPenetration": "Media",
+      "altFireMode": "Zoom 1.5x",
+      "description": "SMG silenciada con buen equilibrio entre cadencia de tiro, precisión y control. Excelente para rondas semi-económicas.",
+      "imageUrl": "https://media.valorant-api.com/weapons/462080d1-4035-2937-7c09-27aa2a5c27a7/displayicon.png"
+    },
+    "bucky": {
+      "name": "Bucky",
+      "type": "Escopeta",
+      "cost": "850",
+      "damage": {
+        "head": "44 por perdigón",
+        "body": "22 por perdigón",
+        "leg": "19 por perdigón"
+      },
+      "fireRate": "1.1 disparos/seg",
+      "magazineSize": "5",
+      "wallPenetration": "Baja",
+      "altFireMode": "Disparo de aire comprimido a media distancia",
+      "description": "Escopeta semiautomática que destaca en combates a corta distancia. Su modo alternativo es útil para distancias un poco mayores.",
+      "imageUrl": "https://media.valorant-api.com/weapons/910be174-449b-c412-ab22-d0873436b21b/displayicon.png"
+    },
+    "judge": {
+      "name": "Judge",
+      "type": "Escopeta",
+      "cost": "1850",
+      "damage": {
+        "head": "34 por perdigón",
+        "body": "17 por perdigón",
+        "leg": "14 por perdigón"
+      },
+      "fireRate": "3.5 disparos/seg",
+      "magazineSize": "7",
+      "wallPenetration": "Media",
+      "altFireMode": "Ninguno",
+      "description": "Escopeta automática de alta cadencia. Excelente para espacios cerrados y situaciones defensivas en esquinas.",
+      "imageUrl": "https://media.valorant-api.com/weapons/ec845bf4-4f79-ddda-a3da-0db3774b2794/displayicon.png"
+    },
+    "bulldog": {
+      "name": "Bulldog",
+      "type": "Rifle",
+      "cost": "2050",
+      "damage": {
+        "head": "116",
+        "body": "35",
+        "leg": "30"
+      },
+      "fireRate": "9.5 disparos/seg",
+      "magazineSize": "24",
+      "wallPenetration": "Media",
+      "altFireMode": "Ráfaga de 3 disparos con zoom 1.25x",
+      "description": "Rifle de bajo costo con potencia decente. Su modo alternativo de disparo permite disparos en ráfaga precisos a distancias medias.",
+      "imageUrl": "https://media.valorant-api.com/weapons/ae3de142-4d85-2547-dd26-4e90bed35cf7/displayicon.png"
+    },
+    "guardian": {
+      "name": "Guardian",
+      "type": "Rifle",
+      "cost": "2250",
+      "damage": {
+        "head": "195",
+        "body": "65",
+        "leg": "49"
+      },
+      "fireRate": "5.25 disparos/seg (Semi-automática)",
+      "magazineSize": "12",
+      "wallPenetration": "Media",
+      "altFireMode": "Zoom 1.5x",
+      "description": "Rifle semi-automático de alta precisión. Excelente para distancias largas y jugadores con buena puntería que prefieren disparos controlados.",
+      "imageUrl": "https://media.valorant-api.com/weapons/4ade7faa-4cf1-8376-95ef-39884480959b/displayicon.png"
+    },
+    "phantom": {
+      "name": "Phantom",
+      "type": "Rifle",
+      "cost": "2900",
+      "damage": {
+        "head": "156-140-124",
+        "body": "39-35-31",
+        "leg": "33-30-26"
+      },
+      "fireRate": "11 disparos/seg",
+      "magazineSize": "30",
+      "wallPenetration": "Media",
+      "altFireMode": "Zoom 1.25x",
+      "description": "Rifle automático silenciado con alta cadencia de tiro. Ofrece disparos precisos a corta y media distancia sin revelar tu posición.",
+      "imageUrl": "https://media.valorant-api.com/weapons/ee8e8d15-496b-07ac-e5f6-8fae5d4c7b1a/displayicon.png"
+    },
+    "vandal": {
+      "name": "Vandal",
+      "type": "Rifle",
+      "cost": "2900",
+      "damage": {
+        "head": "160",
+        "body": "40",
+        "leg": "34"
+      },
+      "fireRate": "9.75 disparos/seg",
+      "magazineSize": "25",
+      "wallPenetration": "Media",
+      "altFireMode": "Zoom 1.25x",
+      "description": "Rifle de alta potencia que puede eliminar de un disparo a la cabeza a cualquier distancia. Su retroceso es más difícil de controlar que el Phantom.",
+      "imageUrl": "https://media.valorant-api.com/weapons/9c82e19d-4575-0200-1a81-3eacf00cf872/displayicon.png"
+    },
+    "marshal": {
+      "name": "Marshal",
+      "type": "Francotirador",
+      "cost": "950",
+      "damage": {
+        "head": "202",
+        "body": "101",
+        "leg": "85"
+      },
+      "fireRate": "1.5 disparos/seg",
+      "magazineSize": "5",
+      "wallPenetration": "Media",
+      "altFireMode": "Zoom 2.5x",
+      "description": "Rifle de francotirador ligero con alta precisión. Letal con disparos a la cabeza pero requiere un segundo disparo al cuerpo contra enemigos con armadura completa.",
+      "imageUrl": "https://media.valorant-api.com/weapons/c4883e50-4494-202c-3ec3-6b8a9284f00b/displayicon.png"
+    },
+    "operator": {
+      "name": "Operator",
+      "type": "Francotirador",
+      "cost": "4700",
+      "damage": {
+        "head": "255",
+        "body": "150",
+        "leg": "127"
+      },
+      "fireRate": "0.75 disparos/seg",
+      "magazineSize": "5",
+      "wallPenetration": "Alta",
+      "altFireMode": "Zoom 2.5x y 5x",
+      "description": "Rifle de francotirador de alto impacto que puede eliminar de un solo disparo al cuerpo. Su costo elevado y baja movilidad lo hacen arriesgado pero potencialmente devastador.",
+      "imageUrl": "https://media.valorant-api.com/weapons/a03b24d3-4319-996d-0f8c-94bbfba1dfc7/displayicon.png"
+    },
+    "ares": {
+      "name": "Ares",
+      "type": "Ametralladora",
+      "cost": "1600",
+      "damage": {
+        "head": "72",
+        "body": "30",
+        "leg": "25"
+      },
+      "fireRate": "10 - 13 disparos/seg (aumenta al disparar)",
+      "magazineSize": "50",
+      "wallPenetration": "Alta",
+      "altFireMode": "Zoom 1.25x",
+      "description": "Ametralladora ligera con gran cargador. Su cadencia de tiro aumenta cuanto más tiempo mantengas el disparo, convirtiéndose en una opción formidable para control de zonas.",
+      "imageUrl": "https://media.valorant-api.com/weapons/55d8a0f4-4274-ca67-fe2c-06ab45efdf58/displayicon.png"
+    },
+    "odin": {
+      "name": "Odin",
+      "type": "Ametralladora",
+      "cost": "3200",
+      "damage": {
+        "head": "95",
+        "body": "38",
+        "leg": "32"
+      },
+      "fireRate": "12 - 15.6 disparos/seg (aumenta al disparar)",
+      "magazineSize": "100",
+      "wallPenetration": "Alta",
+      "altFireMode": "Zoom 1.25x con cadencia de tiro máxima",
+      "description": "Ametralladora pesada con enorme cargador y alta penetración. Excelente para disparar a través de paredes y controlar zonas. Su modo alternativo permite alcanzar directamente la cadencia máxima.",
+      "imageUrl": "https://media.valorant-api.com/weapons/63e6c2b6-4a8e-869c-3d4c-e38355226584/displayicon.png"
+    },
+    "knife": {
+      "name": "Cuchillo Táctico",
+      "type": "Cuerpo a cuerpo",
+      "cost": "Gratis",
+      "damage": {
+        "head": "150",
+        "body": "50",
+        "leg": "50"
+      },
+      "fireRate": "N/A",
+      "magazineSize": "N/A",
+      "wallPenetration": "N/A",
+      "altFireMode": "Ataque derecho (más lento, más daño)",
+      "description": "Arma cuerpo a cuerpo estándar disponible en todas las rondas. Ataque principal rápido, ataque secundario más fuerte pero más lento.",
+      "imageUrl": "https://media.valorant-api.com/weapons/2f59173c-4bed-b6c3-2191-dea9b58be9c7/displayicon.png"
+    }
+  }
+}

@@ -1,0 +1,525 @@
+{
+  "mainLore": {
+    "titulo": "El Universo de VALORANT",
+    "descripcion": "VALORANT se desarrolla en una versión futurista de la Tierra después de un evento global conocido como 'Primera Luz', que provocó cambios dramáticos en la tecnología, la sociedad y el surgimiento de habilidades radiantes en algunas personas.",
+    "eventoFundamental": {
+      "nombre": "Primera Luz",
+      "descripcion": "Un evento catastrófico global que reorganizó el orden mundial y causó la aparición de una nueva sustancia llamada Radianita, que otorga poderes a ciertas personas (llamadas Radiantes) y puede ser utilizada para crear tecnología avanzada.",
+      "año": "Aproximadamente 2039"
+    },
+    "facciones": [
+      {
+        "nombre": "Protocolo VALORANT",
+        "descripcion": "Organización secreta multinacional formada para prevenir otra catástrofe como Primera Luz y contrarrestar amenazas relacionadas con la Radianita. Recluta a agentes de todo el mundo, tanto Radiantes como usuarios de tecnología basada en Radianita.",
+        "lider": "Brimstone",
+        "sede": "Desconocida, posiblemente múltiples ubicaciones"
+      },
+      {
+        "nombre": "Reino (Kingdom Corporation)",
+        "descripcion": "Corporación global que controla la mayor parte de la minería y procesamiento de Radianita. Tiene intereses comerciales en numerosos sectores y presencia en todo el mundo. Se sospecha que tiene motivos ocultos y posiblemente esté relacionada con experimentos cuestionables.",
+        "sede": "Múltiples sedes globales"
+      },
+      {
+        "nombre": "MIRROR Earth",
+        "descripcion": "Una Tierra alternativa de la que provienen ciertos agentes como Harbor. Tiene su propio conflicto por la Radianita y problemas únicos a su realidad.",
+        "relacion": "Los acontecimientos en la Tierra principal y MIRROR Earth parecen estar conectados de formas aún no completamente reveladas."
+      }
+    ],
+    "mundoYGeografia": {
+      "descripcion": "El mundo de VALORANT es similar al nuestro pero con elementos futuristas. Las ubicaciones de los mapas representan zonas donde la Radianita es especialmente abundante o donde ocurren eventos clave relacionados con las facciones principales.",
+      "lugaresNotables": [
+        "Venecia, Italia (Ascent) - Ciudad que literalmente ascendió debido a un incidente con Radianita",
+        "Reino Town, Bahía de Santa Fe, EE.UU. (Bind) - Centro de experimentación de Reino",
+        "Miami, Florida (Breeze) - Isla tropical controlada por Reino",
+        "Berlín, Alemania (Split) - Ciudad dividida por la influencia de Reino",
+        "Thimphu, Bután (Icebox) - Estación de investigación ártica",
+        "Tokio, Japón (Fracture) - Instalación experimental donde ocurrió un desastre",
+        "Nueva Delhi, India (Haven) - Templo convertido en centro de operaciones",
+        "Lisboa, Portugal (Pearl) - Ciudad submarina ubicada en una realidad alternativa",
+        "Los Ángeles, EE.UU. (Lotus) - Complejo antiguo con tecnología misteriosa"
+      ]
+    },
+    "tecnologia": {
+      "radianita": "Material extraordinario que apareció tras Primera Luz. Puede otorgar poderes a personas (Radiantes) y también se utiliza para crear tecnología avanzada (como los equipos de los agentes no radiantes).",
+      "spike": "Dispositivo explosivo que aprovecha la energía de la Radianita. Es el objetivo principal en las misiones de los agentes, donde un equipo intenta plantarlo y el otro desactivarlo."
+    }
+  },
+  "agentesLore": [
+    {
+      "nombre": "Astra",
+      "origen": "Ghana",
+      "tipo": "Radiante",
+      "historia": "Astra canaliza energías cósmicas para reformar la realidad según sus deseos. Con total dominio de su poder astral, la agente ghanesa controla las energías del cosmos para reconfigurar los campos de batalla a su antojo.",
+      "conexiones": [
+        "Omen",
+        "Harbor"
+      ],
+      "afiliacion": "Protocolo VALORANT"
+    },
+    {
+      "nombre": "Breach",
+      "origen": "Suecia",
+      "tipo": "Usuario de tecnología",
+      "historia": "Erik Torsten, conocido como Breach, es un iniciador biomecánico de Suecia que utiliza poderosas ráfagas cinéticas para dañar y desestabilizar. Con brazos biónicos que amplifican su capacidad para causar sismos, forma parte del Protocolo VALORANT.",
+      "conexiones": [
+        "Raze",
+        "Gekko"
+      ],
+      "afiliacion": "Protocolo VALORANT"
+    },
+    {
+      "nombre": "Brimstone",
+      "origen": "Estados Unidos",
+      "tipo": "Usuario de tecnología",
+      "historia": "Brimstone (nombre real desconocido) es un veterano militar estadounidense y líder del Protocolo VALORANT. Utiliza su experiencia militar y su arsenal de apoyo orbital para proporcionar utilidad y control a su equipo.",
+      "conexiones": [
+        "Viper",
+        "Sova",
+        "Killjoy"
+      ],
+      "afiliacion": "Protocolo VALORANT (Director)",
+      "rol": "Comandante de las operaciones"
+    },
+    {
+      "nombre": "Chamber",
+      "origen": "Francia",
+      "tipo": "Usuario de tecnología",
+      "historia": "Vincent Fabron, conocido como Chamber, es un diseñador de armas francés y ex-empresario. Posee una confianza absoluta en su trabajo y su aspecto impecable refleja su precisión mortífera. Tiene un pasado misterioso posiblemente vinculado a Reino.",
+      "conexiones": [
+        "Killjoy",
+        "Cypher"
+      ],
+      "afiliacion": "Protocolo VALORANT (anteriormente posible vínculo con Reino)"
+    },
+    {
+      "nombre": "Cypher",
+      "origen": "Marruecos",
+      "tipo": "Usuario de tecnología",
+      "historia": "Amir El Amari, conocido como Cypher, es un vigilante marroquí y comerciante de información. Oculta su identidad tras una máscara y utiliza una red de trampas, cámaras y tecnologías de vigilancia. Perdió a su familia en circunstancias no reveladas.",
+      "conexiones": [
+        "Killjoy",
+        "Chamber",
+        "Omen"
+      ],
+      "afiliacion": "Protocolo VALORANT"
+    },
+    {
+      "nombre": "Deadlock",
+      "origen": "Noruega",
+      "tipo": "Usuario de tecnología",
+      "historia": "Deadlock lidera un grupo llamado 'ANNEX' y utiliza nanotecnología de contención. Tiene una larga rivalidad con Clove. Es experta en tecnología de contención y restricción de movimiento.",
+      "conexiones": [
+        "Clove (rivalidad)"
+      ],
+      "afiliacion": "Protocolo VALORANT, ANNEX"
+    },
+    {
+      "nombre": "Fade",
+      "origen": "Turquía",
+      "tipo": "Radiante",
+      "historia": "Fade, la cazarrecompensas turca, utiliza poder radiante para manipular las pesadillas. Originalmente buscaba venganza contra el Protocolo VALORANT por creerse responsables del secuestro de sus amigos, pero luego descubrió que la verdadera culpable era Reino.",
+      "conexiones": [
+        "Chamber",
+        "Brimstone"
+      ],
+      "afiliacion": "Protocolo VALORANT (anteriormente enemiga)"
+    },
+    {
+      "nombre": "Gekko",
+      "origen": "Estados Unidos",
+      "tipo": "Radiante",
+      "historia": "Gekko, de Los Ángeles, puede materializar criaturas de su energía radiante. Estas criaturas (Dizzy, Wingman, Thrash y Mosh) tienen personalidades propias y son parte esencial de su vida cotidiana y habilidades de combate.",
+      "conexiones": [
+        "Breach",
+        "Phoenix"
+      ],
+      "afiliacion": "Protocolo VALORANT"
+    },
+    {
+      "nombre": "Harbor",
+      "origen": "India (MIRROR Earth)",
+      "tipo": "Usuario de artefacto",
+      "historia": "Varun Batra, conocido como Harbor, proviene de una Tierra alternativa llamada MIRROR Earth. Utiliza un artefacto antiguo (un brazalete) que le permite controlar el agua. Está en conflicto con REALM, la versión de Reino en su realidad.",
+      "conexiones": [
+        "Astra",
+        "Iso"
+      ],
+      "afiliacion": "Protocolo VALORANT"
+    },
+    {
+      "nombre": "Jett",
+      "origen": "Corea del Sur",
+      "tipo": "Radiante",
+      "historia": "Sunwoo Han, conocida como Jett, es una asesina ágil de Corea del Sur con habilidades radiantes relacionadas con el viento. Su pasado incluye un incidente en su restaurante familiar que la llevó a huir hasta que fue reclutada por el Protocolo VALORANT.",
+      "conexiones": [
+        "Phoenix",
+        "Sage"
+      ],
+      "afiliacion": "Protocolo VALORANT"
+    },
+    {
+      "nombre": "KAY/O",
+      "origen": "Futuro Alternativo",
+      "tipo": "Robot",
+      "historia": "KAY/O es un robot de guerra creado en un futuro alternativo donde los Radiantes causaron devastación. Fue enviado al pasado para prevenir esta catástrofe. Está programado para neutralizar radiantes y tiene recuerdos de una versión alternativa de Brimstone.",
+      "conexiones": [
+        "Brimstone",
+        "Killjoy"
+      ],
+      "afiliacion": "Protocolo VALORANT"
+    },
+    {
+      "nombre": "Killjoy",
+      "origen": "Alemania",
+      "tipo": "Usuario de tecnología",
+      "historia": "Klara Böhringer, conocida como Killjoy, es una genio inventora alemana. Sus creaciones incluyen el Manto Protector, el Pico y otros dispositivos cruciales para el Protocolo VALORANT. Fue reclutada por Brimstone por su brillantez técnica.",
+      "conexiones": [
+        "Brimstone",
+        "Raze",
+        "Chamber (rivalidad)"
+      ],
+      "afiliacion": "Protocolo VALORANT",
+      "rol": "Directora técnica"
+    },
+    {
+      "nombre": "Neon",
+      "origen": "Filipinas",
+      "tipo": "Radiante",
+      "historia": "Tala Nicole Dimaapi Valdez, conocida como Neon, es una joven agente filipina con poderes bioelectricos. Fue reclutada recientemente y aún está aprendiendo a controlar sus habilidades, que incluyen velocidad extrema y manipulación eléctrica.",
+      "conexiones": [
+        "Phoenix",
+        "Jett"
+      ],
+      "afiliacion": "Protocolo VALORANT"
+    },
+    {
+      "nombre": "Omen",
+      "origen": "Desconocido",
+      "tipo": "Experimento fallido",
+      "historia": "Omen es una sombra con recuerdos fragmentados de su vida anterior. Fue creado en un experimento que salió mal, posiblemente relacionado con Viper. Puede manipular las sombras y la oscuridad, y busca respuestas sobre su pasado y condición actual.",
+      "conexiones": [
+        "Viper",
+        "Sabine",
+        "Reyna"
+      ],
+      "afiliacion": "Protocolo VALORANT"
+    },
+    {
+      "nombre": "Phoenix",
+      "origen": "Reino Unido",
+      "tipo": "Radiante",
+      "historia": "Jamie Adeyemi, conocido como Phoenix, es un radiante británico con poder sobre el fuego. Confiado y a veces impulsivo, sus habilidades le permiten sanar en su propio fuego y crear paredes ardientes. Es uno de los agentes más reconocibles del Protocolo.",
+      "conexiones": [
+        "Jett",
+        "Neon",
+        "Sova"
+      ],
+      "afiliacion": "Protocolo VALORANT"
+    },
+    {
+      "nombre": "Raze",
+      "origen": "Brasil",
+      "tipo": "Usuario de tecnología",
+      "historia": "Tayane Alves, conocida como Raze, es una ingeniosa demoledora brasileña. Utiliza explosivos que fabrica ella misma y su personalidad expresiva y enérgica contrasta con la destrucción que causa. Proviene de Salvador, Bahía.",
+      "conexiones": [
+        "Killjoy",
+        "Breach"
+      ],
+      "afiliacion": "Protocolo VALORANT"
+    },
+    {
+      "nombre": "Reyna",
+      "origen": "México",
+      "tipo": "Radiante",
+      "historia": "Zyanya Mondragón, conocida como Reyna, es una radiante mexicana con habilidades vampíricas. Puede absorber la esencia de sus enemigos para fortalecerse. Tiene una hermana que fue víctima de experimentos con Radianita, lo que alimenta su odio hacia Reino.",
+      "conexiones": [
+        "Viper",
+        "Omen"
+      ],
+      "afiliacion": "Protocolo VALORANT"
+    },
+    {
+      "nombre": "Sage",
+      "origen": "China",
+      "tipo": "Radiante",
+      "historia": "Ling Ying Wei, conocida como Sage, es una radiante china con poderes de sanación y resurrección. Actúa como el pilar moral y espiritual del equipo, utilizando sus habilidades para proteger a sus aliados y revivir a los caídos.",
+      "conexiones": [
+        "Jett",
+        "Cypher"
+      ],
+      "afiliacion": "Protocolo VALORANT"
+    },
+    {
+      "nombre": "Skye",
+      "origen": "Australia",
+      "tipo": "Radiante",
+      "historia": "Kirra Foster, conocida como Skye, es una defensora ecológica australiana. Puede manifestar bestias de energía radiante con formas animales. Se unió al Protocolo para proteger la naturaleza de las consecuencias negativas de la Radianita.",
+      "conexiones": [
+        "Sova",
+        "Sage"
+      ],
+      "afiliacion": "Protocolo VALORANT"
+    },
+    {
+      "nombre": "Sova",
+      "origen": "Rusia",
+      "tipo": "Usuario de tecnología",
+      "historia": "Sova (nombre real desconocido) es un cazador ruso experto en rastreo. Utiliza tecnología de reconocimiento y un arco con flechas especiales. Es uno de los agentes más leales y disciplinados del Protocolo VALORANT.",
+      "conexiones": [
+        "Brimstone",
+        "Cypher"
+      ],
+      "afiliacion": "Protocolo VALORANT"
+    },
+    {
+      "nombre": "Viper",
+      "origen": "Estados Unidos",
+      "tipo": "Científica/Usuario de tecnología",
+      "historia": "Sabine Callas, conocida como Viper, es una científica estadounidense especializada en toxicología. Anteriormente trabajó para Reino y participó en experimentos con Radianita, posiblemente incluyendo el que creó a Omen. Ahora utiliza su conocimiento contra ellos.",
+      "conexiones": [
+        "Brimstone",
+        "Omen",
+        "Killjoy"
+      ],
+      "afiliacion": "Protocolo VALORANT (anteriormente Reino)",
+      "rol": "Directora científica"
+    },
+    {
+      "nombre": "Yoru",
+      "origen": "Japón",
+      "tipo": "Radiante",
+      "historia": "Ryo Kiritani, conocido como Yoru, es un radiante japonés con la capacidad de abrir grietas en la realidad. Su búsqueda personal lo llevó a investigar instalaciones ancestrales y tecnología radiante. Es solitario y se centra en sus propios objetivos.",
+      "conexiones": [
+        "Phoenix (rivalidad)"
+      ],
+      "afiliacion": "Protocolo VALORANT"
+    },
+    {
+      "nombre": "Iso",
+      "origen": "China",
+      "tipo": "Radiante",
+      "historia": "Iso es un agente chino con poderes de manipulación del tiempo. Puede crear réplicas temporales de sí mismo y alterar su percepción del tiempo. Su pasado está ligado a experimentos con la Radianita y tiene objetivos personales aún no revelados.",
+      "conexiones": [
+        "Harbor",
+        "Omen"
+      ],
+      "afiliacion": "Protocolo VALORANT"
+    },
+    {
+      "nombre": "Clove",
+      "origen": "Irlanda",
+      "tipo": "Radiante",
+      "historia": "Clove posee una inmortalidad imperfecta que les permite regresar brevemente tras la muerte. De origen irlandés, tienen una personalidad carismática pero moralmente ambigua y una larga rivalidad con Deadlock.",
+      "conexiones": [
+        "Deadlock (rivalidad)"
+      ],
+      "afiliacion": "Protocolo VALORANT"
+    }
+  ],
+  "timelineEvents": [
+    {
+      "año": "~2039",
+      "evento": "Primera Luz",
+      "descripcion": "Evento catastrófico mundial que cambió el equilibrio de poder global y resultó en la aparición de la Radianita.",
+      "importancia": "Fundamental"
+    },
+    {
+      "año": "Post-Primera Luz",
+      "evento": "Fundación de Reino (Kingdom Corporation)",
+      "descripcion": "Surgimiento de la corporación que monopolizaría la extracción y procesamiento de Radianita en todo el mundo.",
+      "importancia": "Alta"
+    },
+    {
+      "año": "Post-Primera Luz",
+      "evento": "Aparición de los primeros Radiantes",
+      "descripcion": "Individuos comienzan a manifestar habilidades sobrenaturales debido a la exposición a la Radianita.",
+      "importancia": "Alta"
+    },
+    {
+      "año": "~2040",
+      "evento": "Experimentos tempranos con Radianita",
+      "descripcion": "Reino y otras organizaciones comienzan a experimentar con Radianita y sus efectos, incluyendo los experimentos de Sabine Callas (Viper).",
+      "importancia": "Media"
+    },
+    {
+      "año": "~2041",
+      "evento": "Incidente que creó a Omen",
+      "descripcion": "Un experimento fallido con Radianita transforma a un ser humano en la entidad conocida como Omen.",
+      "importancia": "Media"
+    },
+    {
+      "año": "~2042",
+      "evento": "Formación inicial del Protocolo VALORANT",
+      "descripcion": "Brimstone y otros agentes pioneros establecen el Protocolo como respuesta a las amenazas relacionadas con la Radianita.",
+      "importancia": "Alta"
+    },
+    {
+      "año": "~2043-2046",
+      "evento": "Reino expande su influencia global",
+      "descripcion": "La corporación establece instalaciones y ciudades (como Split) bajo su control en todo el mundo.",
+      "importancia": "Media"
+    },
+    {
+      "año": "~2047",
+      "evento": "Incidente de Venecia",
+      "descripcion": "Un accidente con Radianita causa que parte de la ciudad de Venecia se eleve del suelo (mapa Ascent).",
+      "importancia": "Media"
+    },
+    {
+      "año": "~2047",
+      "evento": "Reclutamiento ampliado de agentes",
+      "descripcion": "El Protocolo VALORANT comienza a reclutar agentes de todo el mundo, tanto Radiantes como usuarios de tecnología.",
+      "importancia": "Alta"
+    },
+    {
+      "año": "~2048",
+      "evento": "Descubrimiento de realidades alternativas",
+      "descripcion": "El Protocolo VALORANT descubre la existencia de Tierras paralelas como MIRROR Earth.",
+      "importancia": "Alta"
+    },
+    {
+      "año": "~2050",
+      "evento": "Incidente de Fracture",
+      "descripcion": "Un experimento con la teletransportación causa una ruptura entre dos realidades.",
+      "importancia": "Media"
+    },
+    {
+      "año": "~2051",
+      "evento": "KAY/O llega del futuro",
+      "descripcion": "Un robot de guerra de un futuro alternativo viaja al pasado para prevenir una guerra entre humanos y Radiantes.",
+      "importancia": "Alta"
+    },
+    {
+      "año": "~2052",
+      "evento": "Conflicto con REALM",
+      "descripcion": "Harbor se une al Protocolo trayendo información sobre REALM, la versión de Reino en MIRROR Earth.",
+      "importancia": "Alta"
+    },
+    {
+      "año": "~2053",
+      "evento": "Desarrollo de Pearl",
+      "descripcion": "Una ciudad submarina es construida en una realidad alternativa, usando tecnología avanzada de Radianita para su sustento.",
+      "importancia": "Media"
+    },
+    {
+      "año": "Presente",
+      "evento": "Operaciones actuales del Protocolo VALORANT",
+      "descripcion": "El Protocolo continúa su lucha contra Reino/REALM y otras amenazas relacionadas con la Radianita.",
+      "importancia": "Alta"
+    }
+  ],
+  "relacionesAgentes": [
+    {
+      "agentes": [
+        "Brimstone",
+        "Viper"
+      ],
+      "tipo": "Colegas veteranos",
+      "descripcion": "Brimstone y Viper (Sabine) son miembros fundadores del Protocolo VALORANT y tienen una larga historia de colaboración. A pesar de sus personalidades opuestas, existe un respeto profundo entre ellos."
+    },
+    {
+      "agentes": [
+        "Viper",
+        "Omen"
+      ],
+      "tipo": "Pasado compartido",
+      "descripcion": "Existen fuertes indicios de que Viper conocía a Omen antes de su transformación y posiblemente estuvo involucrada en el experimento que lo convirtió en lo que es ahora. Omen la llama 'Sabine' a pesar de que ella prefiere su nombre clave."
+    },
+    {
+      "agentes": [
+        "Killjoy",
+        "Raze"
+      ],
+      "tipo": "Amistad cercana",
+      "descripcion": "Killjoy y Raze comparten una pasión por la tecnología y los explosivos, aunque con enfoques muy diferentes. Han desarrollado una amistad cercana y a menudo colaboran en proyectos."
+    },
+    {
+      "agentes": [
+        "Phoenix",
+        "Jett"
+      ],
+      "tipo": "Compañeros competitivos",
+      "descripcion": "Phoenix y Jett mantienen una relación de rivalidad amistosa, a menudo compitiendo para ver quién tiene mejores habilidades o consigue más eliminaciones."
+    },
+    {
+      "agentes": [
+        "Cypher",
+        "Sova"
+      ],
+      "tipo": "Especialistas en recolección de información",
+      "descripcion": "Aunque utilizan métodos diferentes, ambos respetan la habilidad del otro para recopilar información crucial."
+    },
+    {
+      "agentes": [
+        "Sage",
+        "Skye"
+      ],
+      "tipo": "Cuidadoras",
+      "descripcion": "Ambas se preocupan profundamente por el bienestar de su equipo y comparten una filosofía de protección, aunque Sage es más formal y estructurada, mientras que Skye tiene un enfoque más natural."
+    },
+    {
+      "agentes": [
+        "Chamber",
+        "Killjoy"
+      ],
+      "tipo": "Rivalidad tecnológica",
+      "descripcion": "Ambos son genios en tecnología pero con filosofías opuestas. Chamber prefiere la elegancia y precisión, mientras que Killjoy valora la funcionalidad y la innovación. Suelen debatir sobre sus enfoques."
+    },
+    {
+      "agentes": [
+        "Reyna",
+        "Viper"
+      ],
+      "tipo": "Respeto mutuo",
+      "descripcion": "Ambas tienen personalidades fuertes y algo oscuras. Reyna respeta la determinación y conocimiento científico de Viper, mientras que Viper reconoce el poder y la intensidad de Reyna."
+    },
+    {
+      "agentes": [
+        "KAY/O",
+        "Brimstone"
+      ],
+      "tipo": "Conexión del futuro",
+      "descripcion": "KAY/O tiene recuerdos de una versión alternativa de Brimstone de su línea temporal, lo que crea un vínculo unilateral donde KAY/O siente lealtad hacia un Brimstone que técnicamente aún no ha vivido esas experiencias."
+    },
+    {
+      "agentes": [
+        "Neon",
+        "Phoenix"
+      ],
+      "tipo": "Mentor y aprendiz",
+      "descripcion": "Phoenix, con más experiencia en el control de poderes relacionados con la energía, a veces guía a Neon en el manejo de sus habilidades bioeléctricas."
+    },
+    {
+      "agentes": [
+        "Deadlock",
+        "Clove"
+      ],
+      "tipo": "Antiguos rivales",
+      "descripcion": "Tienen una larga historia de confrontación que precede a su ingreso al Protocolo VALORANT. Su rivalidad es intensa pero profesional."
+    },
+    {
+      "agentes": [
+        "Harbor",
+        "Astra"
+      ],
+      "tipo": "Exploradores de realidades",
+      "descripcion": "Ambos tienen conocimientos sobre las diferentes realidades y dimensiones. Astra a través de sus poderes cósmicos y Harbor por provenir de MIRROR Earth."
+    },
+    {
+      "agentes": [
+        "Yoru",
+        "Phoenix"
+      ],
+      "tipo": "Rivalidad tensa",
+      "descripcion": "Personalidades opuestas que frecuentemente chocan. Phoenix es extrovertido y directo, mientras que Yoru es reservado y solitario."
+    },
+    {
+      "agentes": [
+        "Fade",
+        "Cypher"
+      ],
+      "tipo": "Recopiladores de secretos",
+      "descripcion": "Ambos se especializan en descubrir información oculta, aunque usan métodos radicalmente diferentes: Cypher con tecnología y Fade con poder radiante que revela miedos."
+    }
+  ]
+}

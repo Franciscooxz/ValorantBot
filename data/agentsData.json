@@ -1,0 +1,652 @@
+{
+  "agents": {
+    "brimstone": {
+      "name": "Brimstone",
+      "role": "Controlador",
+      "biography": "Proveniente de Estados Unidos, Brimstone es un comandante militar experimentado. Su arsenal orbital garantiza que su escuadrón siempre tenga ventaja estratégica. Su habilidad para proporcionar utilidad con precisión a distancia lo convierte en un líder inigualable en el campo de batalla.",
+      "abilities": {
+        "basic1": {
+          "name": "Granada Incendiaria",
+          "description": "Lanza una granada incendiaria que despliega una zona de fuego que daña a los jugadores dentro del área."
+        },
+        "basic2": {
+          "name": "Cortina de Humo",
+          "description": "Despliega un mapa táctico para lanzar nubes de humo que bloquean la visión en áreas seleccionadas."
+        },
+        "signature": {
+          "name": "Baliza Estimulante",
+          "description": "Lanza una baliza que proporciona Disparo Rápido a todos los jugadores que estén en su rango."
+        },
+        "ultimate": {
+          "name": "Golpe Orbital",
+          "description": "Usa un mapa táctico para designar una ubicación donde caerá un potente ataque láser orbital."
+        }
+      },
+      "imageUrl": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/displayicon.png"
+    },
+    "phoenix": {
+      "name": "Phoenix",
+      "role": "Duelista",
+      "biography": "Originario del Reino Unido, Phoenix brilla en el combate con su estilo de pelea, que prende fuego al campo de batalla de forma intermitente. No le importa si tiene compañía o no, luchará contra cualquier enemigo a su manera.",
+      "abilities": {
+        "basic1": {
+          "name": "Bola Curva",
+          "description": "Lanza un orbe de fuego curvo que explota después de un breve retraso, cegando a todos los jugadores que miren hacia él."
+        },
+        "basic2": {
+          "name": "Manos Calientes",
+          "description": "Lanza una bola de fuego que explota tras un retraso o al impactar el suelo, creando una zona de fuego persistente."
+        },
+        "signature": {
+          "name": "Llamarada",
+          "description": "Crea un muro de fuego que bloquea la visión y daña a los jugadores que lo atraviesan."
+        },
+        "ultimate": {
+          "name": "Resurgir",
+          "description": "Marca tu ubicación actual. Al morir durante la duración o cuando expira, regresas a esta ubicación con salud completa."
+        }
+      },
+      "imageUrl": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/displayicon.png"
+    },
+    "sage": {
+      "name": "Sage",
+      "role": "Centinela",
+      "biography": "Originaria de China, Sage es el pilar de cualquier equipo, capaz de revivir aliados caídos y repeler asaltos agresivos. Su capacidad para crear seguridad la convierte en un excelente soporte defensivo.",
+      "abilities": {
+        "basic1": {
+          "name": "Orbe de Ralentización",
+          "description": "Lanza un orbe que explota al impactar, creando un campo que ralentiza a los jugadores dentro."
+        },
+        "basic2": {
+          "name": "Orbe de Curación",
+          "description": "Cura a un aliado o a sí misma con el tiempo."
+        },
+        "signature": {
+          "name": "Orbe de Barrera",
+          "description": "Crea una pared sólida que bloquea el paso de jugadores y proyectiles."
+        },
+        "ultimate": {
+          "name": "Resurrección",
+          "description": "Revive a un aliado caído con toda su salud."
+        }
+      },
+      "imageUrl": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/displayicon.png"
+    },
+    "sova": {
+      "name": "Sova",
+      "role": "Iniciador",
+      "biography": "Nacido en la eterna tundra de Rusia, Sova rastrea, encuentra y elimina a los enemigos con eficiencia implacable. Su arco personalizado y sus habilidades de reconocimiento lo convierten en un experto en localizar presas.",
+      "abilities": {
+        "basic1": {
+          "name": "Flecha de Choque",
+          "description": "Dispara una flecha que emite pulsos de energía que dañan a los jugadores cercanos al impacto."
+        },
+        "basic2": {
+          "name": "Flecha Reveladora",
+          "description": "Dispara una flecha que activa al impactar, revelando la ubicación de los enemigos en la línea de visión."
+        },
+        "signature": {
+          "name": "Dron Búho",
+          "description": "Despliega y controla un dron que puede disparar un dardo, revelando la ubicación del enemigo impactado."
+        },
+        "ultimate": {
+          "name": "Furia del Cazador",
+          "description": "Dispara tres poderosos rayos de energía a través de paredes, dañando e identificando a los enemigos alcanzados."
+        }
+      },
+      "imageUrl": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/displayicon.png"
+    },
+    "viper": {
+      "name": "Viper",
+      "role": "Controlador",
+      "biography": "Originaria de Estados Unidos, Viper despliega dispositivos químicos que controlan el campo de batalla y corroen la visión y la salud de los enemigos. Si no mata a su presa, sin duda los dejará en un estado lamentable para acabar el trabajo.",
+      "abilities": {
+        "basic1": {
+          "name": "Nube Venenosa",
+          "description": "Lanza un emisor de gas que se puede reactivar para crear una nube de gas tóxico que consume combustible."
+        },
+        "basic2": {
+          "name": "Pantalla Tóxica",
+          "description": "Despliega una línea de emisores de gas que se pueden reactivar para crear un muro de gas tóxico que consume combustible."
+        },
+        "signature": {
+          "name": "Veneno de Serpiente",
+          "description": "Equipa un lanzador de químicos. Dispara para lanzar un cartucho que se rompe al impactar, creando una zona química persistente que daña la salud y ralentiza a los enemigos."
+        },
+        "ultimate": {
+          "name": "Pozo de Víbora",
+          "description": "Equipa un pulverizador químico. Dispara para crear una nube química en un área grande que reduce la vida y la visión máxima de los jugadores. Puede reactivarse una vez."
+        }
+      },
+      "imageUrl": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/displayicon.png"
+    },
+    "cypher": {
+      "name": "Cypher",
+      "role": "Centinela",
+      "biography": "Originario de Marruecos, Cypher es un traficante de información con una red de vigilancia que descubre los secretos del enemigo. No hay secreto seguro ni maniobra que pase desapercibida. Cypher siempre está vigilando.",
+      "abilities": {
+        "basic1": {
+          "name": "Jaula Cibernética",
+          "description": "Lanza una trampa que se activa cuando un enemigo la atraviesa, creando una zona que bloquea la visión y ralentiza a los enemigos."
+        },
+        "basic2": {
+          "name": "Cámara Espía",
+          "description": "Coloca una cámara remota que puede disparar un dardo marcador que revela la posición del enemigo impactado."
+        },
+        "signature": {
+          "name": "Cable Trampa",
+          "description": "Coloca un cable trampa casi invisible que detecta y aturdirá a los enemigos que lo atraviesen."
+        },
+        "ultimate": {
+          "name": "Asalto Neural",
+          "description": "Usa en un enemigo recién eliminado para revelar la ubicación de todos los enemigos vivos."
+        }
+      },
+      "imageUrl": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/displayicon.png"
+    },
+    "reyna": {
+      "name": "Reyna",
+      "role": "Duelista",
+      "biography": "Originaria de México, Reyna domina el combate individual, destacándose con cada eliminación que consigue. Su capacidad es solo limitada por su habilidad, haciéndola muy dependiente de su desempeño.",
+      "abilities": {
+        "basic1": {
+          "name": "Devorar",
+          "description": "Consume instantáneamente un orbe de alma cercano, curándose rápidamente por un corto tiempo."
+        },
+        "basic2": {
+          "name": "Descartar",
+          "description": "Consume instantáneamente un orbe de alma cercano, volviéndose intangible durante un breve período. Intangible mientras se usa Emperatriz."
+        },
+        "signature": {
+          "name": "Mirada Lasciva",
+          "description": "Equipa un ojo etéreo destructible. Actívalo para lanzar el ojo a corta distancia, cegando a todos los jugadores que lo miren."
+        },
+        "ultimate": {
+          "name": "Emperatriz",
+          "description": "Entra en un frenesí, aumentando drásticamente la velocidad de disparo, recarga y cambio de armas. Consigue recargas infinitas de Devorar y Descartar al conseguir eliminaciones."
+        }
+      },
+      "imageUrl": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/displayicon.png"
+    },
+    "killjoy": {
+      "name": "Killjoy",
+      "role": "Centinela",
+      "biography": "Originaria de Alemania, Killjoy es una genio que asegura fácilmente posiciones clave en el campo de batalla con su arsenal de inventos. Si el daño de sus invenciones no detiene a los enemigos, la debilitación de sus robots los volverá presa fácil.",
+      "abilities": {
+        "basic1": {
+          "name": "Alarmabot",
+          "description": "Equipa un bot que, al ser activado, persigue a los enemigos que entran en su alcance, explotando y aplicando vulnerabilidad a todos los afectados."
+        },
+        "basic2": {
+          "name": "Torreta",
+          "description": "Despliega una torreta que dispara a los enemigos en un cono de 180 grados. Puede ser recogida para reubicarla."
+        },
+        "signature": {
+          "name": "Nanoenjambre",
+          "description": "Lanza un dispositivo encubierto que despliega un enjambre de nanobots que infligen daño."
+        },
+        "ultimate": {
+          "name": "Bloqueo",
+          "description": "Despliega un dispositivo que, tras cargarse, detiene a todos los jugadores en su radio de efecto."
+        }
+      },
+      "imageUrl": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/displayicon.png"
+    },
+    "breach": {
+      "name": "Breach",
+      "role": "Iniciador",
+      "biography": "Originario de Suecia, Breach usa explosivos cinéticos para forzar confrontaciones, sacudiendo el terreno y haciendo volar los obstáculos para alcanzar a los enemigos desprevenidos. Los daños colaterales no son una preocupación para él.",
+      "abilities": {
+        "basic1": {
+          "name": "Cegadora",
+          "description": "Equipa una carga cegadora que puede dispararse a través de paredes para cegar a todos los jugadores que miren hacia ella."
+        },
+        "basic2": {
+          "name": "Falla",
+          "description": "Equipa una carga sísmica que provoca un terremoto en línea recta, aturdiendo a todos los jugadores en la zona de impacto."
+        },
+        "signature": {
+          "name": "Postcombustión",
+          "description": "Equipa una carga de fusión que atraviesa paredes y lanza a los jugadores al aire, dejándolos vulnerables durante su caída."
+        },
+        "ultimate": {
+          "name": "Fragor",
+          "description": "Equipa una carga sísmica que emite un terremoto en cono, aturdiendo y lanzando por los aires a todos los jugadores del área afectada."
+        }
+      },
+      "imageUrl": "https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/displayicon.png"
+    },
+    "omen": {
+      "name": "Omen",
+      "role": "Controlador",
+      "biography": "Omen es un fantasma del pasado que caza en las sombras. Es capaz de cegar al enemigo, teleportarse a través del campo y sembrar el paranoia mientras deja que su equipo avance sigilosamente.",
+      "abilities": {
+        "basic1": {
+          "name": "Paranoia",
+          "description": "Dispara un proyectil de sombra que cega brevemente a todos los jugadores que lo miren."
+        },
+        "basic2": {
+          "name": "Velo Tenebroso",
+          "description": "Equipa un orbe sombra y mira dónde lanzarlo. Crea una esfera de sombra duradera que bloquea la visión."
+        },
+        "signature": {
+          "name": "Paso Sombrío",
+          "description": "Después de un breve retraso, teletransporta a una ubicación marcada. Mantén presionado para ver indicador de alcance y establecer ubicación."
+        },
+        "ultimate": {
+          "name": "Desde las Sombras",
+          "description": "Selecciona cualquier lugar del mapa para teletransportarse y reaparece allí. Apareces como un Fantasma que puede ser destruido para cancelar la teletransportación."
+        }
+      },
+      "imageUrl": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/displayicon.png"
+    },
+    "jett": {
+      "name": "Jett",
+      "role": "Duelista",
+      "biography": "Originaria de Corea del Sur, Jett es una agente ágil y evasiva que destaca en espacios abiertos. Su velocidad y movimiento le permiten esquivar fácilmente los disparos, cortar a los enemigos y luego desaparecer antes de que sepan qué los golpeó.",
+      "abilities": {
+        "basic1": {
+          "name": "Corriente Ascendente",
+          "description": "INSTANTÁNEAMENTE propulsa a Jett hacia arriba en el aire."
+        },
+        "basic2": {
+          "name": "Viento de Cola",
+          "description": "ACTIVA para preparar un impulso de viento por un breve periodo. Vuelve a ACTIVAR para lanzarte en la dirección actual."
+        },
+        "signature": {
+          "name": "Deriva",
+          "description": "EQUIPA un conjunto de cuchillos arrojadizos. DISPARA para lanzar un cuchillo. Los cuchillos se recargan al conseguir eliminaciones."
+        },
+        "ultimate": {
+          "name": "Tormenta de Cuchillas",
+          "description": "EQUIPA un conjunto de cuchillas flotantes. DISPARA para lanzar una única cuchilla con alta precisión. Las cuchillas se recargan con cada eliminación."
+        }
+      },
+      "imageUrl": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/displayicon.png"
+    },
+    "raze": {
+      "name": "Raze",
+      "role": "Duelista",
+      "biography": "Originaria de Brasil, Raze llega con su explosiva personalidad y sus enormes armas. Con su estilo de juego basado en la movilidad y el daño en área, destaca tanto eliminando enemigos como abriendo camino a través de zonas controladas.",
+      "abilities": {
+        "basic1": {
+          "name": "Cartucho de Explosión",
+          "description": "EQUIPA un cartucho de explosión. DISPARA para lanzarlo. El cartucho se adhiere a las superficies y daña a los enemigos con pequeñas explosiones."
+        },
+        "basic2": {
+          "name": "Paquetes de Explosivos",
+          "description": "EQUIPA una granada. DISPARA para lanzar la granada, que hace daño y crea sub-municiones que causan daño adicional."
+        },
+        "signature": {
+          "name": "Bumbot",
+          "description": "EQUIPA un Bumbot. DISPARA para desplegar el robot, que avanza en línea recta buscando enemigos. Al encontrar uno, lo persigue y explota causando daño severo."
+        },
+        "ultimate": {
+          "name": "Devastación",
+          "description": "EQUIPA un lanzacohetes. DISPARA un cohete que causa daño masivo al impactar con cualquier cosa."
+        }
+      },
+      "imageUrl": "https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/displayicon.png"
+    },
+    "skye": {
+      "name": "Skye",
+      "role": "Iniciador",
+      "biography": "Originaria de Australia, Skye y su manada de bestias abren camino a través del territorio hostil. Con sus creaciones que obstaculizan al enemigo y su poder para sanar a los demás, es tanto una solución para romper frentes como un equipo de apoyo.",
+      "abilities": {
+        "basic1": {
+          "name": "Precursor",
+          "description": "EQUIPA un amuleto de tigre trinense. DISPARA para enviar y controlar el tigre, que puede saltar hacia adelante. Mientras está en el aire, DISPARA para hacer que se lance hacia adelante, causando aturdimiento y daño."
+        },
+        "basic2": {
+          "name": "Luz Guía",
+          "description": "EQUIPA un halcón. DISPARA para enviarlo. MANTÉN PULSADO DISPARO para guiar el halcón en la dirección de la mirilla. VUELVE A ACTIVAR cuando el halcón está volando para transformarlo en un destello."
+        },
+        "signature": {
+          "name": "Revitalizar",
+          "description": "EQUIPA un amuleto curativo. MANTÉN PULSADO DISPARO para curar a los aliados en rango y línea de visión. Puede ser reusado hasta que se agote la carga curativa."
+        },
+        "ultimate": {
+          "name": "Rastreadores",
+          "description": "EQUIPA un amuleto de rastreador. DISPARA para enviar tres rastreadores que localizan a los tres enemigos más cercanos. Si un rastreador alcanza a un objetivo, lo revela para tu equipo."
+        }
+      },
+      "imageUrl": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/displayicon.png"
+    },
+    "yoru": {
+      "name": "Yoru",
+      "role": "Duelista",
+      "biography": "Originario de Japón, Yoru abre agujeros en el tejido de la realidad para infiltrarse en territorio enemigo sin ser detectado. Usando el engaño y la agresividad por igual, sorprende a los objetivos antes de que sepan dónde buscar.",
+      "abilities": {
+        "basic1": {
+          "name": "Punto Ciego",
+          "description": "EQUIPA un fragmento dimensional inestable. DISPARA para lanzarlo, activando un destello que cegará a todos los jugadores que lo miren."
+        },
+        "basic2": {
+          "name": "Infiltración",
+          "description": "EQUIPA una máscara que puede ver entre dimensiones. DISPARA para entrar en la dimensión de Yoru, donde los enemigos no pueden verte ni dañarte."
+        },
+        "signature": {
+          "name": "Paso Dimensional",
+          "description": "EQUIPA un eco dimensional que imita pasos. DISPARA para activar y enviar el eco. ALT DISPARO para colocar un eco inactivo que puede ser activado después."
+        },
+        "ultimate": {
+          "name": "Viaje Dimensional",
+          "description": "EQUIPA una máscara que puede ver entre dimensiones. DISPARA para entrar en la dimensión de Yoru, donde los enemigos no pueden verte ni dañarte."
+        }
+      },
+      "imageUrl": "https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/displayicon.png"
+    },
+    "astra": {
+      "name": "Astra",
+      "role": "Controlador",
+      "biography": "La ghanesa Astra canaliza energías cósmicas para remodelar los campos de batalla a su antojo. Con pleno dominio de su forma astral y un talento para la anticipación estratégica, siempre está eones por delante de los movimientos de sus enemigos.",
+      "abilities": {
+        "basic1": {
+          "name": "Nova Pulsar",
+          "description": "Coloca estrellas en el modo astral. ACTIVA una estrella para detonar un Nova Pulsar, que carga brevemente y luego ataca, concusionando a todos los jugadores en el área."
+        },
+        "basic2": {
+          "name": "Nebulosa",
+          "description": "Coloca estrellas en el modo astral. ACTIVA una estrella para transformarla en una Nebulosa (humo). MANTÉN PULSADO para disipar la estrella, regresándola tras un breve periodo."
+        },
+        "signature": {
+          "name": "Pozo Gravitacional",
+          "description": "Coloca estrellas en el modo astral. ACTIVA una estrella para formar un Pozo Gravitacional. Los jugadores en el área son atraídos hacia el centro antes de que explote, haciéndolos vulnerables."
+        },
+        "ultimate": {
+          "name": "Divide Cósmica",
+          "description": "ACTIVA para entrar en el modo astral y apuntar una ubicación. DISPARA para crear una Divide Cósmica infinita que bloquea balas y sonido."
+        }
+      },
+      "imageUrl": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/displayicon.png"
+    },
+    "kayo": {
+      "name": "KAY/O",
+      "role": "Iniciador",
+      "biography": "KAY/O es una máquina de guerra construida con un único propósito: neutralizar radiantes. Su poder para suprimir habilidades enemigas neutraliza la capacidad de sus oponentes para contraatacar, dando a él y a sus aliados la ventaja definitiva.",
+      "abilities": {
+        "basic1": {
+          "name": "FLASH/DRIVE",
+          "description": "EQUIPA una granada flash. DISPARA para lanzarla. La granada flash explota después de un breve periodo, cegando a cualquiera en línea de visión."
+        },
+        "basic2": {
+          "name": "FRAG/MENTO",
+          "description": "EQUIPA un fragmento explosivo. DISPARA para lanzarlo. El fragmento se adhiere al suelo y explota varias veces, infligiendo daño casi letal en el centro de la explosión."
+        },
+        "signature": {
+          "name": "PUNTO/CERO",
+          "description": "EQUIPA una cuchilla de supresión. DISPARA para lanzarla. La cuchilla se adhiere a la primera superficie que golpea y explota, suprimiendo a cualquiera dentro del radio de la explosión."
+        },
+        "ultimate": {
+          "name": "SOBRE/CARGA",
+          "description": "EQUIPA inmediatamente una sobrecarga energética. DISPARA para entrar en un estado potenciado donde emites pulsos de energía que suprimen a los enemigos alcanzados. Si mueres en este estado, entras en estado Caído pero podrás ser revivido por un aliado."
+        }
+      },
+      "imageUrl": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/displayicon.png"
+    },
+    "chamber": {
+      "name": "Chamber",
+      "role": "Centinela",
+      "biography": "El diseñador de armas francés Chamber expulsa a los agresores con precisión mortal. Aprovecha su arsenal personalizado para mantener a los enemigos a raya y eliminarlos desde lejos. Siempre tiene el plan perfecto para anticiparse a sus oponentes.",
+      "abilities": {
+        "basic1": {
+          "name": "Cazador de Cabezas",
+          "description": "ACTIVA para equipar una pistola pesada. ALT DISPARO para apuntar. DISPARA para disparar un tiro preciso."
+        },
+        "basic2": {
+          "name": "Rendezvous",
+          "description": "COLOCA dos anclajes de teletransporte. Mientras estás en el suelo y dentro del alcance de un anclaje, REACTIVAR para teletransportarte rápidamente al otro anclaje."
+        },
+        "signature": {
+          "name": "Marca Registrada",
+          "description": "COLOCA una trampa que busca enemigos. Cuando un enemigo visible entra en alcance, la trampa cuenta atrás y luego desestabiliza el terreno, creando un campo persistente que ralentiza a los jugadores dentro."
+        },
+        "ultimate": {
+          "name": "Tour de Force",
+          "description": "ACTIVA para sacar un poderoso rifle de francotirador personalizado. ELIMINAR a un enemigo con este rifle crea un campo energético que ralentiza a los jugadores dentro."
+        }
+      },
+      "imageUrl": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/displayicon.png"
+    },
+    "neon": {
+      "name": "Neon",
+      "role": "Duelista",
+      "biography": "La agente filipina Neon avanza a velocidades impactantes, descargando ráfagas de radiación bioeléctrica tan rápido como su cuerpo las genera. Se adelanta a sus enemigos para atraparlos desprevenidos y luego los fulmina más rápido que un rayo.",
+      "abilities": {
+        "basic1": {
+          "name": "Carrera Veloz",
+          "description": "EQUIPA inmediatamente un carril eléctrico. DISPARA para deslizarte por el carril en la dirección que te muevas. Puedes usar ALT para frenar."
+        },
+        "basic2": {
+          "name": "Rebote",
+          "description": "ACTIVA inmediatamente para lanzar una pared de electricidad que se extiende a corta distancia hacia adelante y hacia un lado. El muro bloquea la visión y daña a los enemigos que lo atraviesen."
+        },
+        "signature": {
+          "name": "Relé",
+          "description": "ACTIVA instantáneamente para lanzar un rayo de energía que rebota una vez. El rayo detona y cega a todos los jugadores que lo ven."
+        },
+        "ultimate": {
+          "name": "Sobrecarga",
+          "description": "Canaliza tu poder completo y aumenta la velocidad durante un corto periodo. DISPARA para crear un rayo mortal de electricidad con alta precisión."
+        }
+      },
+      "imageUrl": "https://media.valorant-api.com/agents/bb2a4828-46eb-8cd1-e765-15848195d751/displayicon.png"
+    },
+    "fade": {
+      "name": "Fade",
+      "role": "Iniciador",
+      "biography": "La cazarrecompensas turca Fade desata el poder de las pesadillas para apoderarse de los secretos del enemigo. En perfecta armonía con el terror puro, acecha a sus objetivos y revela sus miedos más profundos antes de aplastarlos en la oscuridad.",
+      "abilities": {
+        "basic1": {
+          "name": "Capturar",
+          "description": "EQUIPA un orbe de tormento. DISPARA para lanzarlo. El orbe cae tras un tiempo. Vuelve a ACTIVAR para dejar caer el orbe antes. Este orbe se enlaza con los enemigos cercanos y aplica Ensombrecido y Revelado después de un breve periodo."
+        },
+        "basic2": {
+          "name": "Atormentar",
+          "description": "EQUIPA una entidad de tormento. DISPARA para lanzarla. La entidad cae tras un tiempo. Vuelve a ACTIVAR para dejar caer antes. Esta entidad crea un rastro hasta los enemigos, y luego los Ensombrece si los alcanza."
+        },
+        "signature": {
+          "name": "Acechadora",
+          "description": "EQUIPA una Acechadora. DISPARA para enviarla hacia adelante. MANTÉN PULSADO para dirigirla en la dirección de tu mirilla. La Acechadora se enfocará en cualquier enemigo o rastro en su cono de visión y los perseguirá, aplicando Revelado a los afectados."
+        },
+        "ultimate": {
+          "name": "Anochecer",
+          "description": "EQUIPA el poder del Miedo. DISPARA para lanzar una onda de energía de pesadilla que atraviesa paredes. La energía crea un rastro hasta los enemigos alcanzados, aplicando Ensombrecido y Decaído."
+        }
+      },
+      "imageUrl": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/displayicon.png"
+    },
+    "harbor": {
+      "name": "Harbor",
+      "role": "Controlador",
+      "biography": "Originario de la costa india, Harbor aprovecha tecnología ancestral para manipular el agua. Despliega un arsenal de artefactos acuáticos para escudar a sus aliados y aplastar la resistencia enemiga mediante olas de presión aplastantes.",
+      "abilities": {
+        "basic1": {
+          "name": "Oleada",
+          "description": "EQUIPA una pared de agua. DISPARA para enviar la pared hacia adelante por el suelo. MANTÉN presionado para guiar la pared en la dirección de tu mirilla. ALT para enviar la pared en dirección contraria."
+        },
+        "basic2": {
+          "name": "Cascada",
+          "description": "EQUIPA una esfera de agua. DISPARA para lanzarla. Al impactar con el suelo, genera una piscina temporal que bloquea las balas."
+        },
+        "signature": {
+          "name": "Cala",
+          "description": "EQUIPA una esfera de protección acuática. DISPARA para lanzar. ALT para lanzar por debajo. Al impactar, genera una esfera de agua que bloquea las balas."
+        },
+        "ultimate": {
+          "name": "Reckoning",
+          "description": "EQUIPA el poder pleno del artefacto. DISPARA para invocar un géiser que emerge del suelo. Los enemigos en el área son golpeados por chorros de agua que los aturden."
+        }
+      },
+      "imageUrl": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/displayicon.png"
+    },
+    "gekko": {
+      "name": "Gekko",
+      "role": "Iniciador",
+      "biography": "Gekko, de Los Ángeles, lidera un grupo muy unido de criaturas calamitosas. Sus amigables criaturas buscan, destruyen y toman el control del área, y Gekko las recupera para repetir el proceso una y otra vez.",
+      "abilities": {
+        "basic1": {
+          "name": "Wingman",
+          "description": "EQUIPA a Wingman. DISPARA para enviarlo hacia adelante buscando enemigos. Wingman lanza una explosión cegadora hacia el primer enemigo que ve. ALT DISPARO para desplegar un Pico. Una vez desplegado, Wingman intentará desactivar la Spike. Puede recogerlo para recuperarlo."
+        },
+        "basic2": {
+          "name": "Dizzy",
+          "description": "EQUIPA a Dizzy. DISPARA para lanzarla como una granada. Dizzy vuela por el aire y, después de un tiempo, impacta el suelo con un explosión de plasma. Enemigos atrapados en la explosión se ven cegados. Puede recogerla para recuperarla."
+        },
+        "signature": {
+          "name": "Mosh Pit",
+          "description": "EQUIPA a Mosh. DISPARA para lanzarlo como una granada. Mosh se enrolla y, tras impactar, salta tres veces, explotando y dañando a los enemigos atrapados en su radio. Puede recogerlo para recuperarlo."
+        },
+        "ultimate": {
+          "name": "Thrash",
+          "description": "EQUIPA a Thrash. DISPARA para enlazarlo con tu ubicación. Luego toma control de Thrash y salta a través del campo. ACTIVAR para saltar hacia adelante. Al impactar contra el suelo o un enemigo, Thrash explota, reteniendo y dañando a los oponentes en un gran radio."
+        }
+      },
+      "imageUrl": "https://media.valorant-api.com/agents/e370fa57-4757-3604-3648-499e1f642d3f/displayicon.png"
+    },
+    "deadlock": {
+      "name": "Deadlock",
+      "role": "Centinela",
+      "biography": "La agente noruega Deadlock despliega una variedad de nanohilos de última tecnología para defender el campo de batalla de los avances enemigos. Nadie escapa de su vigilante mirada ni sobrevive a su implacable estilo de combate.",
+      "abilities": {
+        "basic1": {
+          "name": "Sensor Sónico",
+          "description": "EQUIPA un Sensor Sónico. DISPARA para desplegarlo. El sensor monitorea un área en busca de enemigos que hagan ruido. Alerta con un ping visual y de audio cuando detecta pisadas, disparos o ruidos significativos."
+        },
+        "basic2": {
+          "name": "Barrera de Malla",
+          "description": "EQUIPA un disco de barrera de malla. DISPARA para lanzarlo hacia adelante. Al impactar, despliega una barrera que bloquea el movimiento de los personajes."
+        },
+        "signature": {
+          "name": "Aceleración",
+          "description": "ACTIVA instantáneamente para reforzar tu blindaje, volviéndote más pesada y reduciendo significativamente el impacto del daño por fuego enemigo."
+        },
+        "ultimate": {
+          "name": "Aniquilación",
+          "description": "EQUIPA una bomba de nanohilos. DISPARA para lanzarla. La bomba explota después de un tiempo, arrastrando a los enemigos cercanos al centro antes de explotar y eliminar a todos los enemigos arrastrados."
+        }
+      },
+      "imageUrl": "https://media.valorant-api.com/agents/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/displayicon.png"
+    },
+    "iso": {
+      "name": "Iso",
+      "role": "Duelista",
+      "biography": "Iso, procedente de China, canaliza su energía vital para separar sus sentidos de la realidad. Utilizando esta energía focalizada, encuentra objetivos para eliminar de manera limpia y precisa sin distracción alguna.",
+      "abilities": {
+        "basic1": {
+          "name": "Contingencia",
+          "description": "EQUIPA una granada de contingencia. DISPARA para lanzarla. Al impactar, la granada despliega un campo que bloquea proyectiles enemigos."
+        },
+        "basic2": {
+          "name": "Doble Golpe",
+          "description": "EQUIPA un cuchillo concentrado. DISPARA para lanzar el cuchillo en línea recta, infligiendo daño y aplicando Vulnerabilidad. El cuchillo rebota una vez en el suelo."
+        },
+        "signature": {
+          "name": "Enfoque",
+          "description": "ACTIVA para canalizar tu energía y entrar en un estado de Enfoque. En este estado, tu precisión de disparo es más precisa y se restablece más rápido después de disparar. Realizas Disparos Silenciosos durante Enfoque."
+        },
+        "ultimate": {
+          "name": "Descarga",
+          "description": "EQUIPA un orbe de energía vital concentrada. DISPARA para lanzar un orbe que crea una zona de duelo para ti y el primer enemigo alcanzado. Tú y el enemigo en el duelo os enfrentáis aislados hasta que uno caiga o expire el tiempo."
+        }
+      },
+      "imageUrl": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/displayicon.png"
+    },
+    "clove": {
+      "name": "Clove",
+      "role": "Duelista",
+      "biography": "Clove, escocés, burla a la muerte mientras avanza con confianza en la batalla. Cuando caen, su habilidad temporal les permite reincorporarse rápidamente al combate, imparables hasta eliminar a todos sus enemigos o agotar su tiempo prestado.",
+      "abilities": {
+        "basic1": {
+          "name": "Puntada Despectiva",
+          "description": "EQUIPA una granada. DISPARA para lanzarla. La granada explota tras un breve retraso, infligiendo daño a los enemigos y creando una zona que ralentiza y reduce la precisión de los jugadores dentro."
+        },
+        "basic2": {
+          "name": "Zancada Incierta",
+          "description": "EQUIPA un objeto etéreo. DISPARA para crear un portal que te teletransporta a esa ubicación. Deja un rastro de humo a tu paso."
+        },
+        "signature": {
+          "name": "El Golpe",
+          "description": "Cuando caes o matas a un enemigo, acumulas energía temporal. ACTIVA para entrar en un estado espectral durante un breve periodo, pudiendo usar todas tus armas y habilidades. Si consigues una eliminación mientras estás en este estado, se extiende su duración."
+        },
+        "ultimate": {
+          "name": "No Hay Muertos",
+          "description": "EQUIPA una poción de revivir. DISPARA para crear un campo que impide que tú y tus aliados mueran. Cuando un aliado o tú debierais morir, en vez de eso quedáis inhabilitados durante un breve periodo, y luego volvéis con salud parcial."
+        }
+      },
+      "imageUrl": "https://media.valorant-api.com/agents/79450a79-439f-4139-b67f-6d9850b389ed/displayicon.png"
+    },
+    "vyse": {
+      "name": "Vyse",
+      "role": "Iniciador",
+      "biography": "Vyse, originario de la República Checa, rompe las defensas de sus enemigos con ataques eléctricos implacables. Utilizando su armadura bioeléctrica, localiza y señala a los oponentes con drones automatizados, creando oportunidades para que sus aliados se impongan.",
+      "abilities": {
+        "basic1": {
+          "name": "Bola Estática",
+          "description": "EQUIPA una bola de energía estática. DISPARA para lanzarla. Tras el impacto, la bola se expande en un campo que daña y ralentiza a los enemigos dentro."
+        },
+        "basic2": {
+          "name": "Relámpago",
+          "description": "EQUIPA un dispositivo de relámpago. DISPARA para lanzar una descarga de rayo que rebota en superficies y atraviesa paredes. Daña a los enemigos en su trayectoria."
+        },
+        "signature": {
+          "name": "Dron Cazador",
+          "description": "EQUIPA un dron de reconocimiento. DISPARA para desplegarlo. El dron busca y marca al enemigo más cercano, revelando su ubicación."
+        },
+        "ultimate": {
+          "name": "Tempestad",
+          "description": "EQUIPA un orbe de energía tormentosa. DISPARA para lanzarlo. Al impactar, crea una tormenta eléctrica que daña, desvela y desconecta brevemente las habilidades de los enemigos atrapados."
+        }
+      },
+      "imageUrl": "https://media.valorant-api.com/agents/cc5c57c4-4902-753f-53e4-0fa2e2062c01/displayicon.png"
+    },
+    "tejo": {
+      "name": "Tejo",
+      "role": "Controlador",
+      "biography": "Tejo, colombiano, controla el campo de batalla con su dominio sobre la tierra. Utiliza pilares de roca para dividir el terreno, creando nuevos caminos para su equipo o bloqueando rutas para sus enemigos con sus poderosas habilidades geomágicas.",
+      "abilities": {
+        "basic1": {
+          "name": "Terremoto",
+          "description": "EQUIPA un catalizador sísmico. DISPARA para lanzarlo. Tras aterrizar, causa un terremoto en la zona que aturde y ralentiza a los enemigos dentro del área."
+        },
+        "basic2": {
+          "name": "Elevación",
+          "description": "EQUIPA un orbe tectónico. DISPARA para colocarlo en el suelo. ACTIVA para crear un pilar de roca que eleva a los aliados, proporcionando ventaja de altura."
+        },
+        "signature": {
+          "name": "División Terrestre",
+          "description": "EQUIPA un deslizador geomágico. DISPARA para crear un muro de roca que divide el terreno, bloqueando la visión y el paso. ALT DISPARO para orientar el muro perpendicularmente."
+        },
+        "ultimate": {
+          "name": "Avalancha",
+          "description": "EQUIPA el poder de la montaña. DISPARA para seleccionar un área. Tras un breve retraso, la zona se inunda con rocas que dañan a los enemigos y los empujan hacia los bordes del área afectada."
+        }
+      },
+      "imageUrl": "https://media.valorant-api.com/agents/03758c0b-495f-eb6b-826c-31a0a7518163/displayicon.png"
+    },
+    "waylay": {
+      "name": "Waylay",
+      "role": "Controlador",
+      "biography": "Procedente de Canadá, Waylay es un experto en cambiar las reglas del juego. Utilizando tecnología disruptiva, puede crear zonas donde las acciones básicas como disparar, moverse y usar habilidades funcionan de manera diferente, forzando a sus enemigos a adaptarse o caer.",
+      "abilities": {
+        "basic1": {
+          "name": "Campo de Suspensión",
+          "description": "EQUIPA un generador de campo. DISPARA para lanzarlo. Tras activarse, crea una zona donde la gravedad es reducida, permitiendo saltos más altos y descenso lento."
+        },
+        "basic2": {
+          "name": "Zona de Distorsión",
+          "description": "EQUIPA un emisor de distorsión. DISPARA para colocarlo. Forma una barrera que invierte los controles de movimiento de los enemigos que la atraviesan durante varios segundos."
+        },
+        "signature": {
+          "name": "Cortina Anómala",
+          "description": "EQUIPA un dispositivo de cortina. DISPARA para crear una pared de energía que no solo bloquea la visión sino que también silencia las acciones (disparos, pasos, habilidades) realizadas dentro de ella."
+        },
+        "ultimate": {
+          "name": "Desfase Cuántico",
+          "description": "ACTIVA para entrar en un estado de desfase, creando una gran zona alrededor tuyo donde el tiempo fluye más lento para todos excepto para ti. Todo dentro de la zona (balas, habilidades, movimiento) se ralentiza significativamente."
+        }
+      },
+      "imageUrl": "https://media.valorant-api.com/agents/652977e5-442b-0719-a9e5-4f9cf42e770e/displayicon.png"
+    }
+  }
+}
