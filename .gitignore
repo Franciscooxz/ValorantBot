@@ -8,9 +8,6 @@ package-lock.json
 .env.development
 
 # Archivos de datos locales
-/data/*.json
-!/data/README.md
-
 # Archivos de sistema
 .DS_Store
 Thumbs.db
