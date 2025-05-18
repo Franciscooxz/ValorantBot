@@ -1,4 +1,17 @@
-// index.js (en la carpeta raíz del proyecto)
+const http = require('http');
+
+// Crear un servidor HTTP simple
+const server = http.createServer((req, res) => {
+  res.writeHead(200, { 'Content-Type': 'text/plain' });
+  res.end('Bot de VALORANT está en línea!');
+});
+
+// Escuchar en el puerto que Render proporciona (o un puerto predeterminado)
+const PORT = process.env.PORT || 3000;
+server.listen(PORT, () => {
+  console.log(`Servidor HTTP iniciado en el puerto ${PORT} - El bot permanecerá activo`);
+});
+
 const { Client, GatewayIntentBits, Collection } = require('discord.js');
 const fs = require('fs');
 const path = require('path');
