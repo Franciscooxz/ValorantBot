@@ -1,8 +1,7 @@
-// src/commands/quiz.js (modificado)
 const { SlashCommandBuilder } = require('@discordjs/builders');
 const { ActionRowBuilder, ButtonBuilder, ButtonStyle, EmbedBuilder } = require('discord.js');
 const quizManager = require('../models/QuizManager');
-const { CATEGORIES } = require('../config/quizConfig'); // Importando CATEGORIES
+const { CATEGORIES } = require('../config/quizConfig');
 const { COLORS } = require('../config/colors');
 
 // Aumentado a 60000 ms (1 minuto)
@@ -46,6 +45,7 @@ module.exports = {
     async execute(interaction) {
         const categoria = interaction.options.getString('categoria');
         const dificultad = interaction.options.getString('dificultad');
+        const usuario = interaction.user;
         
         // Obtener pregunta aleatoria con los filtros
         const pregunta = await quizManager.getRandomQuestion(categoria, dificultad);
@@ -63,8 +63,12 @@ module.exports = {
             .setColor(COLORS.PRIMARY)
             .setTitle(`⏱️ ¡QUIZ VALORANT - 60 SEGUNDOS PARA RESPONDER!`)
             .setDescription(`### ${pregunta.pregunta}`)
+            .setAuthor({ 
+                name: `Quiz iniciado por ${usuario.username}`, 
+                iconURL: usuario.displayAvatarURL() 
+            })
             .setFooter({ 
-                text: `Dificultad: ${pregunta.dificultad} • Categoría: ${pregunta.categoria}` 
+                text: `Dificultad: ${pregunta.dificultad} • Categoría: ${pregunta.categoria} • Solo ${usuario.username} puede responder` 
             });
         
         if (pregunta.imagen) {
@@ -93,11 +97,10 @@ module.exports = {
             );
         });
         
-        // Enviar pregunta con botones mejorados (solo visible para quien ejecutó el comando)
+        // Enviar pregunta con botones mejorados (visible para todos, pero solo el creador puede responder)
         await interaction.reply({
             embeds: [embed],
-            components: [row],
-            ephemeral: true // Hace que solo sea visible para quien ejecutó el comando
+            components: [row]
         });
         
         // Configurar el collector para respuestas
@@ -132,13 +135,13 @@ module.exports = {
                     embed.setColor(COLORS.SUCCESS);
                     embed.addFields({ 
                         name: '✅ ¡CORRECTO!', 
-                        value: `Has ganado **${result.points} puntos**.\nPuntuación total: **${result.totalScore}**` 
+                        value: `${interaction.user.username} ha ganado **${result.points} puntos**.\nPuntuación total: **${result.totalScore}**` 
                     });
                 } else {
                     embed.setColor(COLORS.ERROR);
                     embed.addFields({ 
                         name: '❌ INCORRECTO', 
-                        value: `La respuesta correcta era: **${result.correctAnswer}**\nSigue intentándolo.` 
+                        value: `La respuesta correcta era: **${result.correctAnswer}**\n${interaction.user.username} ha fallado esta pregunta.` 
                     });
                 }
                 
@@ -155,13 +158,12 @@ module.exports = {
                     embed.setColor(COLORS.WARNING);
                     embed.addFields({ 
                         name: '⏱️ ¡TIEMPO AGOTADO!', 
-                        value: `La respuesta correcta era: **${question.opciones[question.respuestaCorrecta]}**` 
+                        value: `La respuesta correcta era: **${question.opciones[question.respuestaCorrecta]}**\n${interaction.user.username} no respondió a tiempo.` 
                     });
                     
                     await interaction.editReply({ 
                         embeds: [embed], 
-                        components: [row],
-                        ephemeral: true
+                        components: [row]
                     });
                 }
             });
@@ -171,6 +173,7 @@ module.exports = {
     },
     
     updateButtons(row, correctIndex, selectedIndex = null) {
+        // El código de actualización de botones queda igual
         row.components.forEach(button => {
             // Deshabilitar todos los botones
             button.setDisabled(true);
